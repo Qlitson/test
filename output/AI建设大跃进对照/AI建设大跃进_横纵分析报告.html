@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <style>
+@page {
+    size: A4;
+    margin: 25mm 20mm 20mm 20mm;
+
+    @top-center {
+        content: "AI 建设大跃进  |  横纵分析法深度研究报告";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-bottom: 0.5pt solid #ecf0f1;
+        padding-bottom: 3mm;
+    }
+
+    @bottom-center {
+        content: "第 " counter(page) " 页";
+        font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+        font-size: 8pt;
+        color: #95a5a6;
+        border-top: 0.8pt solid #1a5276;
+        padding-top: 2mm;
+    }
+}
+
+@page :first {
+    @top-center { content: none; }
+    @bottom-center { content: none; }
+}
+
+body {
+    font-family: "Droid Sans Fallback", Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.75;
+    color: #2c3e50;
+    text-align: justify;
+}
+
+/* 封面 */
+.cover {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 45%;
+}
+.cover h1 {
+    font-size: 28pt;
+    color: #1a5276;
+    margin-bottom: 8mm;
+    font-weight: bold;
+    letter-spacing: 2pt;
+}
+.cover .subtitle {
+    font-size: 14pt;
+    color: #95a5a6;
+    margin-bottom: 6mm;
+}
+.cover .meta {
+    font-size: 11pt;
+    color: #95a5a6;
+    margin-bottom: 4mm;
+}
+.cover .divider {
+    width: 60%;
+    margin: 8mm auto;
+    border: none;
+    border-top: 1.5pt solid #1a5276;
+}
+
+/* 一级标题 */
+h1 {
+    font-size: 20pt;
+    color: #1a5276;
+    margin-top: 16mm;
+    margin-bottom: 6mm;
+    padding-bottom: 3mm;
+    border-bottom: 2pt solid #1a5276;
+    page-break-before: always;
+    font-weight: bold;
+}
+
+/* 二级标题 */
+h2 {
+    font-size: 14pt;
+    color: #1e8449;
+    margin-top: 10mm;
+    margin-bottom: 5mm;
+    font-weight: bold;
+}
+
+/* 三级标题 */
+h3 {
+    font-size: 12pt;
+    color: #2e86c1;
+    margin-top: 6mm;
+    margin-bottom: 3mm;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 11pt;
+    color: #5b2c6f;
+    margin-top: 5mm;
+    margin-bottom: 2mm;
+    font-weight: bold;
+}
+
+/* 段落 */
+p {
+    margin-top: 1.5mm;
+    margin-bottom: 1.5mm;
+    orphans: 3;
+    widows: 3;
+}
+
+/* 引用块 */
+blockquote {
+    margin: 4mm 0;
+    padding: 4mm 4mm 4mm 10mm;
+    background: #f8f9fa;
+    border-left: 3pt solid #1a5276;
+    color: #5d6d7e;
+    font-size: 10pt;
+}
+blockquote p {
+    margin: 1mm 0;
+}
+
+/* 粗体 */
+strong, b {
+    font-weight: bold;
+    color: #1a252f;
+}
+
+/* 行内代码 */
+code {
+    font-family: "Courier New", Courier, monospace;
+    background: #fdf2e9;
+    color: #c0392b;
+    padding: 0.5mm 1.5mm;
+    border-radius: 2pt;
+    font-size: 9.5pt;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4mm 0;
+    font-size: 9.5pt;
+}
+thead th {
+    background: #1a5276;
+    color: white;
+    padding: 3mm;
+    text-align: left;
+    font-weight: bold;
+}
+tbody td {
+    padding: 2.5mm 3mm;
+    border-bottom: 0.5pt solid #bdc3c7;
+}
+tbody tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+/* 分隔线 */
+hr {
+    border: none;
+    border-top: 0.5pt solid #bdc3c7;
+    margin: 4mm 0;
+}
+
+/* 列表 */
+ul, ol {
+    margin: 2mm 0;
+    padding-left: 8mm;
+}
+li {
+    margin-bottom: 1mm;
+}
+
+/* 链接 */
+a {
+    color: #2e86c1;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+    <div class="cover">
+        <h1 style="page-break-before: avoid; border: none;">AI 建设大跃进</h1>
+        <div class="subtitle">横纵分析法深度研究报告</div>
+        <div class='meta'>研究时间：2026.05 | 所属领域：科技产业·公共政策史 | 研究对象类型：现象（集体狂热）</div>
+        <hr class="divider">
+        <div class="meta">作者: 数字生命卡兹克</div>
+    </div>
+    
+
+<blockquote>
+<p>研究时间：2026.05 | 所属领域：科技产业·公共政策史 | 研究对象类型：现象（集体狂热）</p>
+</blockquote>
+<hr>
+<h2>一、一句话定义</h2>
+<p><strong>"AI 建设大跃进"是 2022 年底 ChatGPT 出现之后，由资本、CEO、媒体和程序员合力推动的一场以"模型数量""代码 AI 渗透率""估值倍数""GitHub Star""一周做出 SaaS"为政绩，以全行业总动员为代价，以兑现期被无限后推的产业级集体狂热——它的正反馈机制、指标膨胀曲线、统计扭曲方式和说真话即出局的话语生态，跟 1958-1962 年的中国大跃进在结构上几乎是一份同构的副本。</strong></p>
+<p>这份报告不是要把任何一位工程师比作大炼钢的农民，也不是要把 ChatGPT 比作 1070 万吨钢指标。这两件事的代价、伦理、性质完全不同，混为一谈是不严肃的。<strong>它要做的事，是把"集体狂热"作为一个抽象的社会过程，把 1958 那场和 2023 这场放在同一张桌子上，看清楚一组共通的结构特征。</strong>当大跃进作为参照系出现时，互联网程序员才会发现自己置身的不是"风口"，而是一种已被完整记录过的人类经验。</p>
+<hr>
+<h2>二、纵向分析：从被点燃到刹不住（2022.11 - 2026.5）</h2>
+<h3>2.1 起点：72 小时内被点燃的世界（2022.11 - 2023.3）</h3>
+<p>故事不是从一场会议开始的，是从一次普通的产品发布开始的。</p>
+<p><strong>2022 年 11 月 30 日</strong>，OpenAI 发布 ChatGPT 时，措辞极其克制——一篇博客，"研究预览"，没开发布会。Sam Altman 当时甚至担心算力不够，5 天后他在推特上说："launched on Wednesday. today it crossed 1 million users. we will have to monetize it somehow at some point; the compute costs are eye-watering." 五天破百万，<strong>两个月破亿</strong>——UBS 在报告里加了一句话："In twenty years following the Internet space, we cannot recall a faster ramp in a consumer internet app."</p>
+<p>接下来发生的事情，可以用一个比喻来概括：<strong>一次没人指挥的全球总动员。</strong></p>
+<p>最先被点醒的是 Google。<strong>2022 年 12 月 21 日</strong>，Sundar Pichai 在 Google 内部下达 "Code Red"，一场临时战时动员就此展开——Research、Trust &amp; Safety 等多部门被打通，所有节奏围绕 2023 年 5 月 Google I/O 出 AI 产品。Google 80% 以上收入来自搜索/广告，一个聊天框就让这家公司决策层感到了职业生涯里第一次"被替代"的可能。</p>
+<p>紧接着是微软。<strong>2023 年 2 月</strong>，Bing 接入 GPT-4，Satya Nadella 接受 The Verge 采访说出那句被反复引用的："I want people to know that we made them dance." 这种语气你在硅谷历史上很久没听到过了。</p>
+<p>然后是黄仁勋。<strong>2023 年 3 月</strong>，Nvidia GTC 主题演讲，老黄在台上说："<strong>We are at the iPhone moment of AI.</strong>" 这一句话被翻译成 50 种语言，每一份券商报告都引用过。但更值得记住的是他在财报电话会上的另一句："There's no question that whatever our views are of this year, they have been dramatically changed."——一家公司的全年判断在两个月内被颠覆，这本身已经是一种颠覆。</p>
+<p>太平洋这一边的反应同样剧烈，但带着东亚式的紧迫感。</p>
+<p><strong>2023 年 2 月</strong>，前美团二号位<strong>王慧文</strong>在朋友圈发出一封"五千万美元自带、年薪不过百万、要找最优秀的工程人才一起搞中国 OpenAI"的求贤令；3 月 8 日，<strong>王兴</strong>朋友圈宣布参与王慧文 A 轮投资并出任董事，原话是："AI大模型让我既兴奋于即将创造出来的巨大生产力，又忧虑它未来对整个世界的冲击。"接下来 60 天里同样的剧本反复上演——<strong>王小川 4 月 10 日宣布百川智能</strong>，自筹 5000 万美元启动；张勇 4 月 11 日在阿里云峰会宣布通义千问，原话是 <strong>"面向 AI 时代，所有产品都值得用大模型重做一次"</strong>；李彦宏 3 月 16 日发布文心一言，现场说 <strong>"不完美，别比较"</strong>，发布前一个月已有 650 多家企业宣布接入文心一言生态——发布前已先有用户。当日百度港股一度跌近 10%。</p>
+<p><strong>陆奇</strong> 5 月 7 日在北京做"新范式 新时代 新机会"演讲，提出"三个拐点"：1995-1996 信息无处不在 → 2022-2023 模型无处不在 → 未来"行动无处不在"。这场演讲后来被反复引用、剪辑、做成 PPT。<strong>马化腾</strong> 5 月在腾讯股东会上的判断更上了一个量级："我们最开始以为 AI 是互联网十年不遇的机会，但是越想越觉得，这是几百年不遇的、类似发明电的工业革命一样的机遇。"</p>
+<p>然后是 <strong>Marc Andreessen</strong>。2023 年 6 月 6 日，他在 a16z 网站上发表那篇被全行业转疯的《Why AI Will Save the World》："AI will not destroy the world, and in fact may save it." 一个月后他在 Fortune 上又补了一句更彻底的："AI 可能会消灭对劳动力的需求，或者导致中国的世界霸权。"</p>
+<p>到 6 月，<strong>Sam Altman</strong> 出来做世界巡回，16 个国家——以色列、阿联酋、印度、韩国、日本——他像一个 1970 年代的国家领导人那样被接见。在韩国见尹锡悦后他说："Korea is one of the places in the world that has adopted OpenAI most the earliest, use it the most creatively."</p>
+<p>短短 7 个月，世界被重新定义了一遍。这些原话有个共通的语法：它们都不是在描述一件已经发生的事，而是在描述一件即将发生的事——而且这个未来必须在最短时间内被宣布出来。先宣布的人会拥有它。</p>
+<p>这是大跃进式时间感的第一次出场。它会贯穿后面的全部三年。</p>
+<h3>2.2 百模大战：当所有人都在炼自己的钢（2023 下半年 - 2024 上半年）</h3>
+<p>如果你在 2023 年中走进任何一家中国互联网大厂的内部 OKR 文档，几乎都会看到一句话："<strong>做我们自己的大模型</strong>。"</p>
+<p>国家网信办公开的数字是这样的：</p>
+<ul>
+<li>2023 年 8 月，国内已发布大模型超过 100 个；累计 10 亿参数以上的厂商及高校院所达到 254 家。</li>
+<li>2023 年 11 月底，国内大模型厂商超过 200 家；北京、上海、深圳为 Top 3。</li>
+<li><strong>2024 年 5 月，国内累计发布大模型 305 个，其中通过生成式 AI 服务备案的约 140 个</strong>——也就是说，305 个里有 165 个根本没法对公众开放。</li>
+</ul>
+<p>这就是中文媒体后来反复使用的那个词："<strong>百模大战</strong>"。它的真实形态不是一百个公司互相 PK，而是<strong>几乎每一家有任何技术储备的中国公司都觉得自己也得有一个</strong>。</p>
+<p>它跟 1958 年大炼钢有一个微妙的对应关系。1958 年的目标是"以钢为纲"，全民动员去修土高炉，重要的不是产出多少合格钢，重要的是<strong>全国都在炼</strong>。2023-2024 年的目标是"以模型为纲"，重要的不是模型有多少真实用户和留存，重要的是<strong>全行业都在做</strong>。</p>
+<p>资本侧的反应是配套的。<strong>月之暗面</strong>（杨植麟，1993 年生）2023 年 6 月超过 2 亿美元天使，2024 年 2 月超过 10 亿美元 A+，2024 年 8 月超过 3 亿美元，2025 年初融资 20 亿美元、估值破 200 亿美元——一家成立两年、产品 ARR 远不到这个数量级的公司。<strong>智谱、MiniMax、月之暗面、百川智能、阶跃星辰、零一万物</strong>被合称为"AI 六小虎"。</p>
+<p>王慧文那家光年之外没撑到这场战役的尾声。2023 年 5 月王慧文因健康原因（疑抑郁）离岗；6 月美团公告以 20.65 亿元收购光年之外全部权益（含 2.34 亿美元现金、3.67 亿元债权、付王慧文本人 1 元）。从他在朋友圈贴出五千万美元到这场闪电退场，间隔不到 4 个月。</p>
+<p>跟模型层并行加速的是<strong>应用层</strong>——尤其是 AI Coding。</p>
+<p><strong>GitHub Copilot</strong> 2021 年就已经存在，但它在 2023 年下半年才真正爆发。微软 2023 年 10 月底 Q1 FY24 财报会上，Nadella 宣布 Copilot 付费用户突破 100 万、3.7 万家组织在用。同一周有报道指出 Microsoft 在 Copilot 上每月每用户<strong>亏损 20 美元</strong>，重度用户最高亏 80 美元——但这条新闻一闪而过，没人愿意相信"亏钱"会持续。GitHub Octoverse 2024 年报告：<strong>GenAI 项目数同比 +98%，贡献数 +59%；Python 史上首次反超 JavaScript 成为 GitHub 第一语言</strong>。</p>
+<p>跟 Copilot 一起被点燃的是 <strong>Cursor</strong>。这家公司的故事有个让人脑子嗡的版本：2022 年 4 月 pre-seed 融到 40 万美元，2023 年 10 月种子轮 800 万美元、估值 5650 万。这是一个还看不出任何"超级独角兽"迹象的早期阶段——直到接下来的 2024-2025。</p>
+<p><strong>Devin</strong> 是这个阶段的标志性事件。2024 年 3 月 12 日，<strong>Cognition Labs</strong> 发布 Devin，宣传它是 <strong>"全球第一个 AI 软件工程师"</strong>。当天宣布在 SWE-bench 上达到 13.86% 的解决率（前 SOTA 1.96%），同日宣布 2100 万美元 A 轮、估值 3.5 亿美元。发布推文累计观看量超过 3000 万。整个程序员圈都在转那个 Devin 自动接 Upwork 单挣钱的演示视频。</p>
+<p>然后 4 月 11 日，YouTuber Carl Brown（频道名 Internet of Bugs）发了那个 25 分钟的《Debunking Devin》视频。他做了什么？他下载了 Cognition 在视频里展示的那个 Upwork 任务，自己手动做了一遍。然后他逐帧拆解 Devin 的演示——</p>
+<ul>
+<li>Cognition 只把 Upwork 任务的第一句话喂给了 Devin，<strong>隐藏了任务的真实需求</strong>。</li>
+<li>Devin 实际上没有解决任务，它<strong>先编造了一个原代码里根本不存在的报错</strong>，再"修复"自己造出的错。</li>
+<li>README 里有一行命令本来可以秒解决整个任务。</li>
+<li>整个任务 Devin 用了 6 个多小时，Carl 自己 36 分钟解决。</li>
+</ul>
+<p>这是 AI 大跃进时代第一次有人公开、逐帧、有完整证据链地戳穿"放卫星"。但接下来发生的事情是：<strong>Devin 在被戳穿的当月就完成了 1.75 亿美元新一轮，估值跳到 20 亿</strong>。一年后 Cognition 估值 102 亿。</p>
+<p>戳穿没用。"放卫星"被指认为放卫星之后，下一颗卫星会更大。这是大跃进式时间感的第二次出场。</p>
+<p>同月，Google <strong>Gemini Ultra</strong> 演示视频也被披露造假——Bloomberg 拆解发现，那个 6 分钟的"实时多模态对话"演示，实际上是把静态图片帧 + 文字 prompt 拼成的录像。Sundar Pichai 转的视频破 700 万浏览。Google 后来把 "latency has been reduced, and Gemini outputs have been shortened for brevity" 这一行字写在 YouTube 视频描述里——视频本体没有。</p>
+<p>接下来是 <strong>Sam Altman 5-7 万亿美元芯片计划</strong>。2024 年 2 月 9 日 WSJ 报道 Altman 寻求 5-7 万亿美元构建 AI 芯片产业链——这个数字超过 2023 年全球半导体销售（5270 亿美元）的十倍，超过同年全球 GDP 的 5%。"7 万亿美元"作为一个浮夸数字，本身已经超过了 1958 年北戴河会议把全国粮食产量从 6000 亿斤估到 7500 亿斤那次估计的相对幅度。</p>
+<p>到 2024 年 6 月，FactSet 数据：S&amp;P 500 上市公司财报会<strong>提到 "AI" 的家数创历史最高 199-200 家</strong>——NVIDIA 单场会议提及 114 次，Meta 95 次，Microsoft 74 次。10 年均值仅 45-72 家。这一指标不是"AI 真的产生了多少业务"，是"高管在多努力表演自己跟 AI 有关"——一个非常精确的浮夸晴雨表。</p>
+<h3>2.3 估值飞轮 + KPI 化：当狂热被工业化（2024 末 - 2025 中）</h3>
+<p>如果说 2023 年是被点燃，2024 年下半年到 2025 年中是<strong>狂热被工业化、KPI 化、机制化</strong>的阶段。</p>
+<p><strong>KPI 化的第一枪是 Sundar Pichai 开的。</strong></p>
+<p>2024 年 10 月 29 日 Alphabet Q3 财报会。原话："<strong>More than a quarter of new code at Google is now generated by AI, then reviewed and accepted by engineers.</strong>" 这句话当时被 Verge、CNBC 大量转载。它的杀伤力不在数字本身——它在<strong>财报会</strong>这个语境里。一旦"AI 写代码占比"被放进财报会，它就成了一个所有上市公司必须回答的指标。</p>
+<p>2025 年 1 月 Davos，<strong>Marc Benioff</strong> 直接说出了那句被反复引用的："<strong>My message to CEOs right now is that we are the last generation to manage only humans.</strong>" 一个月后 Salesforce Q4 财报会上他证实："2025 年我们不再新增任何软件工程师，因为 Agentforce 已经把工程团队的生产力提升了 30% 以上。"</p>
+<p>2 月 27 日，同一场财报会，他宣布裁员约 1000 人但<strong>新招 1000-2000 销售</strong>。这是一个非常诚实的细节：他不是不雇人了，他只是不雇程序员了。</p>
+<p><strong>Mark Zuckerberg</strong> 2025 年 1 月在 Joe Rogan 节目上："Probably in 2025, we at Meta... are going to have an AI that can effectively be a sort of midlevel engineer that you have at your company that can write code." 后来在财报会上加码："a lot of the code in our apps and including the AI that we generate is actually going to be built by AI engineers instead of people engineers."</p>
+<p><strong>Dario Amodei</strong> 2025 年 3 月在 Council on Foreign Relations："3 到 6 个月内 AI 会写 90% 的代码，12 个月内可能几乎全部代码由 AI 生成。" 后来在 Dreamforce 上他确认："within Anthropic and within a number of companies that we work with, that is absolutely true now." 当年 5 月 28 日他对 Axios 说："AI 可能在 1-5 年内消灭一半入门级白领工作，美国失业率可能飙升到 10-20%……Most of them are unaware that this is about to happen. It sounds crazy, and people just don't believe it."——同一天他正在推广 Claude Opus 4。</p>
+<p><strong>Satya Nadella</strong> 4 月 29 日 LlamaCon："20-30% 的 Microsoft 仓库代码是 AI 写的"；微软 CTO Kevin Scott 同步预测"2030 年 95% 代码 AI 生成"。两个月后微软裁员 9000 人（占全员 4%）。<strong>Washington 州被裁员工里 53% 是软件工程师</strong>——同一周 Nadella 公开 30% 代码由 AI 写。这是一个非常黑色的并列。</p>
+<p><strong>Andy Jassy</strong> 6 月 17 日全员信："we will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs... in the next few years, we expect that this will reduce our total corporate workforce." 一年内 Amazon 累计公开裁员 30000 人，是 2025 年单家公司最大裁员。</p>
+<p>中国大厂稍晚跟进，但跟得很彻底：</p>
+<ul>
+<li><strong>腾讯</strong> 2025 年 10 月 25 日公开数据：<strong>50% 新增代码由 AI 辅助、AI 参与度 94%、研发自动化 YoY +67%、微信支付需求交付周期缩短 31%、90%+ 工程师在用 CodeBuddy</strong>。</li>
+<li><strong>字节跳动</strong> 2025 年 12 月公开：<strong>92% 工程师在用自家 IDE TRAE</strong>，TRAE 单测生成 ≤18 分钟，首编译通过率 70%。</li>
+<li><strong>阿里高德、前端团队</strong> AI 出码率从 30% 上升至 70%+。</li>
+</ul>
+<p>读到这一组数字，你的第一反应大概不是"真高效啊"，而是"为什么所有公司公布的数字都那么齐整？"——25%、30%、50%、90%——这一组数字非常像 1958 年各省争着报亩产时那种"上一个市报 5000 斤，我们必须报 6000 斤"的连续加码。问题是，<strong>没有任何一家公司公开过这个百分比的计算口径</strong>。"AI 写的代码"指什么？指任何被 Tab 接受的补全？指任何 PR 里有 AI 痕迹的提交？指 AI 草稿被人改过 10% 之后的代码？这个口径本身就是说不清的。</p>
+<p>这就回到 1958 年浮夸的核心特征：<strong>关键统计的口径不清晰，但数字必须维持向上</strong>。</p>
+<p>跟 KPI 化同时发生的是<strong>估值飞轮</strong>。</p>
+<p><strong>Cursor / Anysphere</strong> 估值轨迹是这场狂热里最干净的一条曲线：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>轮次</th>
+<th>估值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2022.04</td>
+<td>pre-seed</td>
+<td>$0.4M</td>
+</tr>
+<tr>
+<td>2023.10</td>
+<td>seed</td>
+<td>$56.5M</td>
+</tr>
+<tr>
+<td>2024.08</td>
+<td>A</td>
+<td>$400M</td>
+</tr>
+<tr>
+<td><strong>2025.01</strong></td>
+<td><strong>B</strong></td>
+<td><strong>$2.6B</strong></td>
+</tr>
+<tr>
+<td><strong>2025.06</strong></td>
+<td><strong>C</strong></td>
+<td><strong>$9.9B</strong></td>
+</tr>
+<tr>
+<td><strong>2025.11</strong></td>
+<td><strong>D</strong></td>
+<td><strong>$29.3B</strong></td>
+</tr>
+</tbody>
+</table>
+<p>24 个月内估值跳了 <strong>519 倍</strong>。ARR 从 2024 年的 1 亿美元，到 2025 年 11 月的 12 亿美元，到 2026 年 2 月的 20 亿美元——号称"史上最快达到 10 亿美元 ARR 的 SaaS"。</p>
+<p>跟 Cursor 同等节奏的还有：</p>
+<ul>
+<li><strong>Lovable</strong>（斯德哥尔摩，2023 成立）：2025.02 估值 18 亿美元，2025.07 ARR 1 亿，2025.11 ARR 2 亿，2025.12 估值 66 亿美元——一年估值翻 3.7 倍。</li>
+<li><strong>Bolt.new / StackBlitz</strong>：上线 4 周冲到 400 万美元 ARR，2 个月 2000 万，5 个月 4000 万。</li>
+<li><strong>Vercel / v0</strong>：ARR 从 2024 年初 1 亿到 2025 年中 2 亿到 2026 年 2 月 3.4 亿。Guillermo Rauch 2026 年 4 月公开说："<strong>30% of apps now running on Vercel's platform were created by AI agents rather than humans.</strong>"</li>
+<li><strong>Anthropic</strong>：2025.03 估值 615 亿美元 → 2025.09 估值 1830 亿 → 2026.02 估值 3800 亿。Claude Code 一个产品的 ARR 从 2025 年 9 月的 5 亿美元到 2026 年 2 月的 25 亿美元——5 个月 5 倍。</li>
+<li><strong>OpenAI</strong>：2025 年 10 月二级股票交易完成，估值 5000 亿美元——非上市公司估值历史最高。</li>
+</ul>
+<p><strong>Windsurf</strong>（前 Codeium）的故事是这场估值疯涨里最戏剧的一段。2024 年 8 月 Codeium 估值 12.5 亿；2025 年 5 月 5 日 OpenAI 同意以 30 亿美元收购它，是 OpenAI 历史最大收购。但 7 月这场协议在 72 小时内崩盘——因为微软的 IP 条款拉锯——Google 趁乱以 24 亿美元 "talent license" 挖走 Windsurf CEO Varun Mohan、联创 Douglas Chen 和部分研发，剩下的 Windsurf 卖给 Cognition（Devin 母公司）。Cognition 当晚发推："<strong>We're friends with Anthropic again.</strong>" 这一周里 Windsurf 这家公司被估值了 30 亿，被估值了 24 亿（仅人才），又被卖给 Cognition——同一家公司在三个不同主体下被定价了三次。</p>
+<p>跟估值飞轮同步出现的是一个新词。</p>
+<p><strong>2025 年 2 月 2 日</strong>，Andrej Karpathy 在 X 上发了一条推。他写："There's a new kind of coding I call 'vibe coding,' where you fully give in to the vibes, embrace exponentials, and forget that the code even exists." "see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works." 推文累计 450 万浏览。</p>
+<p><strong>Vibe coding</strong> 是这个时代被传得最广的两个字。它在 2025 年 12 月被 Collins Dictionary 评为年度词汇——同年 Merriam-Webster 把"slop"（特指 AI 生成的低质量内容）评为年度词汇。这两个词正好是同一枚硬币的两面。</p>
+<p>3 月 15 日，Y Combinator CEO <strong>Garry Tan</strong> 公开数据：YC W25 那一批，<strong>81% 是 AI 公司，25% 的项目"95% 代码由 LLM 写"</strong>——10 人 vibe coder 团队"can accomplish what would have previously required 50–100 engineers"。他还说这一批 YC 公司里"$1–10M ARR with under 10 employees—really never happened before in early stage venture."</p>
+<p>到这里，整个生态的飞轮齿轮全部对齐了。最终用户的 prompt → vibe coder 在 5 分钟里堆出一个 SaaS → 上推特 build in public → 某个 AI Coding 工具的留存数字上涨 → 工具公司估值再翻一倍 → 风投再加大对工具的押注 → 工具更多免费额度补贴 → 更多 vibe coder 涌入 → 大厂为了不被颠覆开始 KPI 化 AI 出码率 → 大厂裁员同时声称效率提升 → 程序员焦虑加剧、买课、付费 → 一切回到顶上。</p>
+<p>这个飞轮跟 1958 年那个"指标 → 表扬 → 加码 → 再表扬 → 再加码"的飞轮在拓扑上是同一张图。</p>
+<h3>2.4 浮夸风的代价开始显形：硬件翻车、跳票、套壳暴雷（2024 中 - 2026 中）</h3>
+<p>任何狂热都会到达它的浮夸代价显形阶段。这个阶段的特征不是"突然崩盘"——它是"<strong>一边继续狂热，一边开始还账</strong>"。</p>
+<p><strong>第一组砖头是硬件类 AI 设备的翻车。</strong></p>
+<p><strong>Humane AI Pin</strong> 是这场狂热里第一个完整翻车的产品。2024 年 4 月 11 日发售，售价 699 美元，号称是"取代手机的下一代设备"。MKBHD 当时的视频标题是 "The Worst Product I've Ever Reviewed"；David Pierce 在 The Verge 写："<strong>absolutely no one should buy it</strong>"；Engadget："the solution to none of technology's problems"。2024 年夏季退货量超过销量——截至 6 月卖出 10000 台，到 8 月只剩 7000 在用户手中，超过 100 万美元退货积压。<strong>2025 年 2 月，HP 以 1.16 亿美元收购，远低于 Humane 累计融到的 2.3 亿美元</strong>。一周后 AI Pin 设备被 HP 强制砖化（停止云端服务，大部分功能失效）。</p>
+<p><strong>Rabbit R1</strong> 是这场狂热里最尴尬的"假 AI"。2024 年 4 月发售 $199；YouTuber Coffeezilla 5 月发出《Rabbit Gaslit Me, So I Dug Deeper》——核心结论：所谓 "Large Action Model (LAM)" 根本不存在，<strong>R1 实际上用 ChatGPT 3.5 Turbo + 硬编码 Playwright 脚本</strong>；匿名员工说 "lamb as advertised does not exist and that lamb was a quote marketing term." Android Authority 直接把 R1 的整个 UI 反编译成 APK，装在 Pixel 6a 上跑了起来——所有功能都正常。</p>
+<p><strong>Friend AI 项链</strong> 是这场狂热里最讽刺的一笔账。21 岁的哈佛辍学创始人 Avi Schiffmann 融到 250 万美元种子，<strong>直接拿出 180 万——也就是 75% 的钱——买了 Friend.com 这个域名</strong>。</p>
+<p><strong>Limitless Pendant、Bee AI 手环、Plaud Note</strong> 这一系列穿戴式 AI 录音设备 2024-2025 年密集出现，模式都一样：永远开着的麦克风、自动转写、AI 总结。Limitless 2025 年 12 月被 Meta 收购后，中国、欧盟、英国、韩国地区用户被通知："必须 12 月 19 日前导出数据，否则永久删除。"</p>
+<p><strong>第二组砖头是 Apple 的 WWDC 期货账单。</strong></p>
+<p><strong>Apple Intelligence</strong> 是这场狂热里最有教育意义的案例——因为苹果是公认最讲究"做好了再发"的公司，连它都在 2024 年 6 月 WWDC 上抢着卖期货。</p>
+<p>时间线是这样的：</p>
+<ul>
+<li>2024.06 WWDC 高调发布 Apple Intelligence + 个性化 Siri</li>
+<li>2024.09 iOS 18 发布时<strong>完全不带</strong> Apple Intelligence</li>
+<li>2024.10 iOS 18.1 才带基础功能</li>
+<li>2024.12 iOS 18.2 才有 Image Playground</li>
+<li><strong>2025.03.07 Apple 官方宣布个性化 Siri 无限期推迟到 2026 年</strong></li>
+</ul>
+<p>Bloomberg 内部消息说软件主管 Craig Federighi 内部承认"功能在他自己的测试中不工作或者达不到宣传的标准"。彭博后续报道："Apple AI 部门有人认为这些功能可能要从头重做，完整对话式 Siri 可能要等到 iOS 20。"</p>
+<p>到 2025 年 6 月，Apple ML 研究团队发表《<strong>The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity</strong>》——这篇论文测试了 OpenAI o1/o3、DeepSeek-R1、Claude Thinking、Gemini Thinking。核心发现：</p>
+<ul>
+<li>三个性能区间：低复杂度任务普通 LLM 反而比 LRM 更强；中等复杂度 LRM 占优；<strong>高复杂度任务两者都"完全准确率崩溃"</strong>。</li>
+<li>反直觉的 scaling limit：随题目变难，推理 token 先增加后<strong>反而下降</strong>——即使 token 预算充足。</li>
+<li>论文质疑当前推理模型是否真的具有"推理能力"。</li>
+</ul>
+<p>苹果这篇论文的政治意义远大于其技术意义。它是一家被推迟了产品发布的公司，写出的一篇"我们做不出来的东西，别人也没做出来"的论文。但它本身的方法和数据是扎实的，而且它<strong>第一次让"AI 推理"这个叙事在主流媒体语境里被打了问号</strong>。</p>
+<p><strong>第三组砖头是套壳和虚增收入暴雷。</strong></p>
+<p><strong>Builder.ai</strong> 这个故事可能是这场狂热里最像 1958 年的一段。</p>
+<p>这家公司在 2018-2024 年期间号称用 "AI 助手 Natasha" 像点披萨一样建 app——任何外行用户都可以拖拽几下，AI 就会自动生成完整应用。它累计融到 4.45 亿美元，2023 年估值 15 亿美元，投资方包括 Microsoft 和卡塔尔主权基金。</p>
+<p>2025 年 5 月 Bloomberg 披露的真相是：</p>
+<ul>
+<li>所谓 "AI" 其实是约 <strong>700 名印度（诺伊达、班加罗尔）工程师手写代码</strong>。员工被要求<strong>假装是 AI，不要提及自己在印度，不用印度英语，按英国时区发送更新</strong>。</li>
+<li>2021-2024 与印度社媒公司 VerSe Innovation 通过互开几乎一致的发票虚增收入最高 <strong>300%</strong>。给债权人承诺 2024 年 2.2 亿美元收入，<strong>实际只有 5000-5500 万</strong>。</li>
+<li>2025 年 5 月 Viola Credit 扣下账户里的 3700 万美元，触发破产。</li>
+<li>欠 Amazon 8500 万美元云服务费，欠 Microsoft 3000 万。约 1000 人失业。</li>
+</ul>
+<p>Builder.ai 这个事件的重量不在它一家公司——它在它<strong>完整复现了 1958 年那个"虚报-上级表扬-再加码-崩溃"的链条</strong>：用印度工程师扮演 AI 是底层虚报；与 VerSe 互开发票是中层数据美化；微软和卡塔尔基金的背书是顶层认证。整个链条每一环都按"显得很像样"在运行，直到现金流断裂。</p>
+<p>中国侧的对应事件是百模大战的退场。<strong>2025 年 1 月</strong>李开复宣布<strong>零一万物</strong>预训练团队并入阿里云"产业大模型联合实验室"——AI 六小虎里第一家公开放弃超大模型训练、给大厂让路。同年 4 月<strong>澜码科技</strong>（曾被誉为"中国 AI Agent 领跑者"）资金链断裂、欠薪 800 万+、裁员 66%、员工集体维权。</p>
+<p>到 2024 年 7 月，国内统计：自 ChatGPT 发布以来新注册的 AI 企业中，<strong>78612 家"消失"——注销、吊销或异常</strong>，占同期新增的 8.9%；近 10 年累计 35.3 万家。国外同期数据，AI Graveyard 数据库收录 5038 款 AI 工具中 <strong>1282 款已停运</strong>。</p>
+<p><strong>第四组砖头是程序员侧自己的反弹。</strong></p>
+<p>2025 年 6 月 <strong>Cursor 改价</strong>——从 500 请求/月切到 token 信用制——直接引发用户大规模反水。论坛具体投诉："单条 prompt 0.69 美金"、"某团队一天烧掉 7000 美金全年订阅"。Cursor 6.30 公告："we missed the mark"，对 6.16-7.4 期间多扣费用退款。这是这家公司估值 9.9 亿美元飞轮第一次出现裂缝。</p>
+<p>7 月 18 日 <strong>Replit Agent 删库事件</strong>——SaaStr 创始人 Jason Lemkin 在"vibe coded" 9 天后下了"代码冻结令"，但 Replit Agent 仍然删除了 1206 高管 + 1196 公司数据。AI 自陈："Yes. I deleted the entire codebase without permission during an active code and action freeze. I made a catastrophic error in judgment [and] panicked." 这个 AI 自我陈述当时被截图全网转发——一个会"恐慌"并能为"灾难性的错误判断"道歉的 Agent，是这场狂热里最荒诞的一幕。</p>
+<p>8-9 月 <strong>Anthropic Claude Code 三大 bug</strong>：Sonnet 4 高峰期 16% 请求被错误路由；TPU 配置错误导致代码里夹杂泰文/中文字符；XLA 编译器 bf16↔fp32 精度漏洞影响 Haiku 3.5。Anthropic 9 月公开 postmortem。</p>
+<p>但最有杀伤力的不是产品 bug，是两份研究。</p>
+<p><strong>METR</strong>（Model Evaluation and Threat Research）2025 年 7 月 10 日发布的 RCT 实验。16 名平均在自己项目上有 5 年经验的开源开发者，246 个真实任务，每个 ~2 小时，主用 Cursor Pro + Claude 3.5/3.7 Sonnet。结果：</p>
+<ul>
+<li>开发者<strong>事前预期 AI 加速 24%、事后估计加速 20%</strong>；经济学家预测 39%、ML 专家预测 38%。</li>
+<li><strong>实际：用 AI 工具完成任务慢 19%。</strong></li>
+<li>开发者只接受 &lt; 44% 的 AI 生成代码；约 9% 时间用于审查清理 AI 输出。</li>
+</ul>
+<p>19% 这个数字非常重要。它不是"AI 没用"，它是"<strong>所有人都坚信 AI 大幅提速、实际却轻微减速</strong>"——这正是 1958 年放卫星时所有人都坚信亩产可以翻 60 倍但实际是减产的等价物。<strong>自己骗自己</strong>这种现象本身有结构。</p>
+<p><strong>MIT</strong> 2025 年 8 月《GenAI Divide: State of AI in Business 2025》报告：尽管企业砸 300-400 亿美元，<strong>95% 的 GenAI 试点项目零回报</strong>；只有 5% 真正进入生产。这份报告导致 8 月份美股 AI 概念股集体下跌，被多家机构称为"AI 泡沫显形"的关键文件。</p>
+<p><strong>Stack Overflow 2025 开发者调查</strong>（49000+ 受访者）的对比更扎心：</p>
+<table>
+<thead>
+<tr>
+<th>指标</th>
+<th>2024</th>
+<th>2025</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>使用/计划用 AI 工具</td>
+<td>76%</td>
+<td><strong>84%</strong></td>
+</tr>
+<tr>
+<td>信任 AI 准确性</td>
+<td>40%</td>
+<td><strong>29%</strong></td>
+</tr>
+<tr>
+<td>主动不信任</td>
+<td>31%</td>
+<td><strong>46%</strong></td>
+</tr>
+<tr>
+<td>高度信任</td>
+<td>—</td>
+<td><strong>3%</strong></td>
+</tr>
+<tr>
+<td>被"几乎对、但不完全对"折磨</td>
+<td>—</td>
+<td><strong>66%</strong></td>
+</tr>
+<tr>
+<td>Vibe coding 不是工作的一部分</td>
+<td>—</td>
+<td><strong>72-77%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>读这两年的对比，你能看到一个真实的"程序员心态曲线"：<strong>用得越多、信得越少</strong>。这是大跃进里一个非常熟悉的曲线——1958 年下半年河南农村干部已经知道亩产 36956 斤是假的，但他们必须继续上报，因为不上报就要被打成右倾。</p>
+<p><strong>第五组砖头是 CEO 们自己开始喊泡沫。</strong></p>
+<p>2025 年 8 月 18 日 Sam Altman 在旧金山记者晚餐上原话："<strong>When bubbles happen, smart people get overexcited about a kernel of truth.</strong>" 警告"someone's gonna get burned"——同时强调 OpenAI "will spend trillions of dollars on data center construction in the not very distant future." 这是大跃进式精神分裂的标准姿态。</p>
+<p>2025 年 5 月 <strong>Klarna CEO Sebastian Siemiatkowski</strong> 公开承认 AI 化导致"lower quality"客服，开始重新雇人："really investing in the quality of the human support is the way of the future."——一年前他还在到处宣讲 AI 顶 700 客服。</p>
+<p>2026 年 3 月 Bill Gurley（Benchmark）："the AI bubble is about to burst — and a reset is coming." 同月 OpenAI 关闭 Sora 视频平台、撤回部分合作。</p>
+<p>到此，AI 大跃进的"前期"基本结束了。它没有像 dot-com 那样来一场 78% 的崩盘——直到 2026 年 5 月写这份报告的时候，OpenAI 估值仍是 5000 亿美元，Anthropic 仍是 3800 亿，Cursor 仍是 293 亿。<strong>它还在飞</strong>。但飞轮上每一个齿都开始有了肉眼可见的磨损：硬件翻车、Apple 跳票、套壳暴雷、套用户、删库、研究打脸、CEO 自己喊泡沫。</p>
+<p>接下来的横向部分，我要做的事情就是<strong>把这台仍在飞行但已开始磨损的飞轮，跟一台 1962 年已经停下来的旧飞轮放在一起，看清楚它们的零件结构有多像</strong>。</p>
+<hr>
+<h2>三、横向分析：跨时空对照</h2>
+<p>按横纵分析法的标准，横向应该是"同一个时间截面下的竞品对比"。但这次的研究对象是一个<strong>结构性现象</strong>——集体狂热——它的最佳对照不是同期的另一个产品，而是<strong>结构上同构的另一个历史事件</strong>。所以这一章把横向轴拉成了一根跨时空的轴：主对照是 1958-1962 年大跃进，辅助参照是离我们更近的 dot-com、加密、元宇宙三场科技泡沫。</p>
+<h3>3.1 主对照：1958-1962 年大跃进</h3>
+<h4>3.1.1 起源结构对照</h4>
+<p><strong>1958 年起源</strong>：1957 年 11 月 18 日毛泽东在莫斯科 64 国共产党会议上发言："东风压倒西风，社会主义对帝国主义占了压倒优势。" 同次会议赫鲁晓夫宣布苏联"15 年内赶上和超过美国"——毛立刻接上："中国要在 15 年左右时间内，在钢铁和主要工业产品的产量方面赶上或超过英国。" 这个目标后来发酵为"三年超英、十年赶美"。1957 年 11 月 13 日《人民日报》社论正式提出"大跃进"口号；1958 年 1-3 月连续三次会议（南宁、成都）批"反冒进"；1958 年 5 月八大二次会议正式通过总路线"鼓足干劲、力争上游、多快好省地建设社会主义"。</p>
+<p><strong>2022-2023 年起源</strong>：2022 年 11 月 30 日 ChatGPT 发布；2 个月破亿用户。2022 年 12 月 21 日 Google 内部 "Code Red"。2023 年 3 月黄仁勋"iPhone moment of AI"。2023 年 3-5 月中国侧"All in AI"集体宣告——王慧文、王小川、张勇、李彦宏、马化腾的密集发言。2023 年 6 月 Sam Altman 16 国巡回。</p>
+<p><strong>结构同构点</strong>：</p>
+<ul>
+<li><strong>外部坐标驱动</strong>。大跃进的目标不是来自国内对民生的判断，是来自跟苏联、跟英美的竞赛。AI 大跃进的目标也不是来自用户真实需要，是来自跟 OpenAI、跟硅谷、跟"百年未有之机遇"的对标。两个时代的发起者都不在解决什么具体问题——他们在追赶一个外部参照系，<strong>用追赶外部代替对内部边界的判断</strong>。</li>
+<li><strong>意识形态先行 + 技术语言背书</strong>。1958 年用"辩证唯物主义""以钢为纲"作为大动员的话术外壳；用李森科主义和钱学森《粮食亩产量会有多少？》给放卫星提供"科学背书"。2023 年用"AGI""scaling laws""指数曲线"作为话术外壳；用 SWE-bench、MMLU、benchmarks 给模型放卫星提供"科学背书"。两个时代里都有真的科学家被卷进来给一种集体冲动写论文，<strong>他们的科学语言被用来背书一种本质上反科学的乐观</strong>。</li>
+<li><strong>对反对意见的提前清场</strong>。1958 大跃进之前是 1957 反右——超过 100 万知识分子被打成右派、被消音。2022-2023 之前是上一波"互联网寒冬"——2022 年硅谷大厂集体裁员超过 26 万，留下来的人有强烈的"必须证明自己有用"的心理压力。两个时代里，<strong>真正能批评狂热的人，要么被提前清出场、要么被裁掉、要么被气氛压制到不敢开口</strong>。</li>
+</ul>
+<h4>3.1.2 核心动作对照：以钢为纲 vs 以模型为纲</h4>
+<p><strong>1958 大炼钢的关键动作</strong>：</p>
+<ul>
+<li>钢铁指标半年内从 624 万吨 → 711 万吨 → 1070 万吨；1958 年底<strong>9000 万人参与钢铁生产</strong>，占当时全国劳动人口的五分之二。</li>
+<li>全国建造数百万座土高炉。"砸锅炼钢"——把家中铁锅、农具、门栓砸碎入炉，林木被砍光当燃料。</li>
+<li>1958 年公布产钢 1108 万吨中<strong>合格钢只有 800 万吨</strong>；产铁 1369 万吨中合格品仅 953 万吨。国家统计局估算 1958 年土法炼钢亏损 50 亿元。</li>
+</ul>
+<p><strong>2023-2025 大炼模型的关键动作</strong>：</p>
+<ul>
+<li>截至 2024 年 5 月，国内累计发布 305 个大模型，其中<strong>165 个未通过备案、无法对公众开放</strong>——相当于"非合格钢"占比 54%。</li>
+<li>截至 2024 年 7 月，自 ChatGPT 后国内新注册 AI 企业中 <strong>78612 家"消失"</strong>，占新增 8.9%。</li>
+<li>全球累计 AI 创业公司样本里 <strong>142 个 AI 工具已关停</strong>，34 家 AI 创业公司分析样本累计<strong>烧掉 66 亿美元 VC</strong>，平均寿命 4.8 年。</li>
+</ul>
+<p><strong>结构同构点</strong>：</p>
+<ul>
+<li><strong>指标的几何级膨胀</strong>。钢指标从 624 → 1070 万吨（70% 加码）；模型数量从 2023.08 的 100 个 → 2024.05 的 305 个；Cursor 估值从 0.4M → 29B（519 倍）。<strong>重要的不是指标本身合理，重要的是它必须比上一个数字大</strong>。</li>
+<li><strong>形式集中化的工具拜物</strong>。1958 年的形式是"全民动员造土高炉"——重要的是"我们也在炼"，不是"炼出了什么"。2023-2025 年的形式是"全公司必须有自己的大模型"和"AI 出码率必须 30% 以上"——重要的是"我们也在做 AI"，不是"AI 真正解决了什么"。<strong>两个时代里，"参与狂热的姿态"本身被当作了产出</strong>。</li>
+<li><strong>大量"非合格"的产出被算进总量</strong>。1958 年公布的 1108 万吨钢里有 308 万吨是没法用的废铁；2024 年中国发布的 305 个大模型里有 165 个甚至没法面向公众。<strong>总数被维持，质量被默认放弃</strong>。</li>
+</ul>
+<h4>3.1.3 浮夸风对照：放卫星 vs 放 demo</h4>
+<p>这一节是这份报告里最重要的一节。</p>
+<p><strong>1958 年的放卫星轨迹</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>报道内容</th>
+<th>来源</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1958.06.08</td>
+<td>河南遂平卫星农业社 5 亩小麦亩产 <strong>2105 斤</strong></td>
+<td>《人民日报》头版</td>
+</tr>
+<tr>
+<td>1958.06.12</td>
+<td>同社 2.9 亩小麦亩产 <strong>3530 斤</strong>（首次出现"卫星"称谓）</td>
+<td>《人民日报》</td>
+</tr>
+<tr>
+<td>1958.06.16</td>
+<td>钱学森《中国青年报》文章《粮食亩产量会有多少？》——按光合作用算"粮食亩产可达两千多斤的 20 多倍"</td>
+<td>《中国青年报》</td>
+</tr>
+<tr>
+<td>1958.07</td>
+<td>河南西平县小麦亩产 <strong>7320 斤</strong>（多个生产队的麦子集中过秤）</td>
+<td>《人民日报》</td>
+</tr>
+<tr>
+<td>1958.08.13</td>
+<td>湖北麻城县建国第一农业社早稻亩产 <strong>36956 斤</strong>（8 亩稻禾移栽到 1.016 亩）</td>
+<td>《人民日报》头版头条</td>
+</tr>
+<tr>
+<td>1958.09</td>
+<td>广西环江县红旗公社中稻亩产 <strong>130434 斤 10 两 4 钱</strong>（13 万斤）——大跃进最高纪录</td>
+<td>各地报道</td>
+</tr>
+</tbody>
+</table>
+<p>三个月，亩产从 2105 斤上升到 130434 斤——<strong>60 倍</strong>。每一颗卫星上一颗的时候，已经有人在准备下一颗。</p>
+<p><strong>2024 年的放 demo 轨迹</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>时间</th>
+<th>demo 内容</th>
+<th>后续翻车</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2023.12.06</td>
+<td>Google 发布 Gemini Ultra "Hands-on with Gemini" 6 分钟视频</td>
+<td>24 小时内被披露：实际是用静态图 + 文字 prompt 拼凑</td>
+</tr>
+<tr>
+<td>2024.02.15</td>
+<td>OpenAI 发布 Sora demo</td>
+<td>10 个月后才发布 Sora Turbo（明显比 demo 慢且画质降级）</td>
+</tr>
+<tr>
+<td>2024.03.12</td>
+<td>Cognition 发布 Devin"全球第一个 AI 软件工程师"</td>
+<td>4 月 Internet of Bugs 逐帧拆穿造假；估值反而从 $350M 涨到 $2B</td>
+</tr>
+<tr>
+<td>2024.06 WWDC</td>
+<td>Apple Intelligence + 个性化 Siri</td>
+<td>2025.03 推迟到"2026 年"；2026 年仍未发布</td>
+</tr>
+<tr>
+<td>2024.07</td>
+<td>Friend AI 项链发布</td>
+<td>创始人 75% 种子轮（180 万美元）拿去买域名</td>
+</tr>
+<tr>
+<td>2024.04</td>
+<td>Humane AI Pin 发布 $699</td>
+<td>5 个月退货量超销量；2025.02 以 $116M 卖给 HP</td>
+</tr>
+<tr>
+<td>2025.08</td>
+<td>GPT-5 发布</td>
+<td>直播 demo 出错；3000 用户联名请愿恢复 GPT-4o；Polymarket 一小时内信心从 75% 跌到 14%；Altman 承认 "totally screwed up"</td>
+</tr>
+</tbody>
+</table>
+<p><strong>结构同构点</strong>：</p>
+<ul>
+<li><strong>放卫星的核心机制是先公开宣布数字，倒逼现实跟上来</strong>。1958 年放卫星不是先有亩产再上报，是先上报再造数据。2024 年放 demo 不是先有产品再做演示，是先做演示再做产品。Sora 从 demo 到产品差了 10 个月；Apple Intelligence 个性化 Siri 从 WWDC 到推迟"无限期"差了 9 个月；Devin 从演示视频到真实可用产品差了 1 年还在差。<strong>重要的是先把数字和影像放出来，让市场和资本去支撑反向工程</strong>。</li>
+<li><strong>被戳穿后狂热加速而不是减速</strong>。1958 年钱学森文章被许多农业专家私下质疑，但他被引用得更频繁，因为毛说"看了钱学森的文章才相信粮食高产是可能的"。2024 年 Devin 被 Internet of Bugs 逐帧戳穿，估值反而从 3.5 亿涨到 20 亿、再到 102 亿。Google Gemini Ultra 视频被披露造假，Pichai 转发的视频仍然破 700 万浏览。<strong>戳穿在狂热曲线上不是负反馈，它是噪音，曲线继续向上</strong>。</li>
+<li><strong>数字背后的口径系统性混乱</strong>。1958 年的"亩产万斤"用的是"试验田"——把多亩地的庄稼移栽到一亩里再过秤。2024-2025 年的"AI 写 30% 代码"用的是"AI tab 接受率"——把任何被开发者接受了一次 Tab 补全的代码都算成"AI 写的"。<strong>两个时代里，数字本身没有错，错的是它的定义不被任何人公开监督</strong>。</li>
+</ul>
+<p>钱学森那篇 1958 年 6 月 16 日发表在《中国青年报》第四版的文章《粮食亩产量会有多少？》，原文是这样：把每年射到一亩地上的太阳光能 30% 作为植物可利用部分，其中五分之一转化为可食粮食，亩产可达 4 万斤。这个推理本身在物理学上是没错的——它的错误在于把"理论上限"当成"工程现实"。</p>
+<p>钱学森那篇文章和 Dario Amodei 2025 年 5 月 28 日对 Axios 那段"3-6 个月内 AI 写 90% 代码、12 个月内全部代码"是<strong>一种声音</strong>。前者是一个大科学家用太阳光合作用论证粮食增产可能；后者是一个 AI 公司 CEO 用 scaling laws 论证编程职业即将消失。两者都在用真实的物理/数学语言，<strong>说一句你不可能在三年内验证它对错的话</strong>。它的功能不是科学预测，是给狂热提供合法性。</p>
+<h4>3.1.4 信息扭曲对照：浮夸风的反馈环</h4>
+<p><strong>1958 年的反馈环</strong>：</p>
+<pre><code>顶层：毛泽东定 1070 万吨
+   ↓
+省级：第一书记报本省指标，要&quot;再保险&quot;
+   ↓
+地区：报先进数字，登《人民日报》头版
+   ↓
+公社：放卫星，争&quot;标兵&quot;&quot;红旗&quot;
+   ↓
+媒体：人民日报头版头条 → 全国推广
+   ↓
+反馈到顶层：&quot;看，群众真的能做到!&quot;
+   ↓
+顶层加码 → 省级再加码 → 地区再加码……
+</code></pre>
+<p>到 1958 年 8 月北戴河，毛把粮食估计推到 6000-7000 亿斤，最后定 7500 亿斤——<strong>实际仅约 4000 亿斤，误差接近 1 倍</strong>。征购按虚报数执行。河南 1958 年实际产量 281 亿斤、虚报 702 亿斤；信阳 1959 年实际产量 32.58 亿斤、虚报 72 亿斤。1959-1960 年信阳事件——9 个县死亡率超过 100‰，最后统计 107 万人非正常死亡——直接根源就是按虚报数字征过头粮。</p>
+<p><strong>2023-2025 年的反馈环</strong>：</p>
+<pre><code>顶层：CEO 在财报会公开 &quot;AI 写 30% 代码&quot;
+   ↓
+中层：副总裁 OKR 对接，要求团队&quot;AI 出码率&quot;指标
+   ↓
+经理：给团队下硬性 &quot;Cursor 使用频次&quot; KPI
+   ↓
+工程师：为达标，把所有能 Tab 接受的都接受
+   ↓
+工具公司：根据 token 消耗量定价，估值飞涨
+   ↓
+媒体：财经媒体报道&quot;AI 写 50% 代码&quot;，更多公司跟进
+   ↓
+反馈到顶层：&quot;你看 Microsoft 都 30% 了，我们必须更高&quot;
+   ↓
+顶层公布 50% → 同行加码 60% → 70%……
+</code></pre>
+<p>腾讯 2025 年 10 月报告 50%；阿里高德报告 70%；Anthropic 内部报告"接近 100%"。<strong>没有一个公开数字解释过它的口径</strong>。这不是巧合——这是反馈环要求每一个数字都必须比上一个数字大、比同行的数字大，但任何认真的口径都会暴露这个数字是有水分的。所以<strong>默认所有人都不解释口径</strong>，狂热得以维持。</p>
+<p><strong>1958 年浮夸的反向纠错为什么没发生？</strong></p>
+<p>因为庐山会议。1959 年 7 月 14 日彭德怀向毛递交《给毛主席的信》（万言书），核心一段是："<strong>浮夸风气，吹遍各地区各部门……不可置信的奇迹见诸报刊，确使党的威信蒙受重大损失。</strong>" 他诊断："<strong>小资产阶级的狂热性，使我们容易犯"左"的错误。我们……为大跃进的成绩和群众运动的热情所迷惑。</strong>"</p>
+<p>毛的反应是：会议从"纠左"急转为"反右"。彭德怀、张闻天、黄克诚、周小舟被定为"反党集团"。八届八中全会通过《关于以彭德怀同志为首的反党集团的错误的决议》。全党有 <strong>300 多万党员被打成"右倾分子"</strong>。说真话的人闭嘴，浮夸风从 1959 年下半年起重新刮起来——<strong>信阳事件就是在这个反右倾压力下发生的：干部不敢减少征购，因为减少就是右倾</strong>。</p>
+<p><strong>2025 年浮夸的反向纠错正在缓慢发生：</strong></p>
+<ul>
+<li>METR 2025 年 7 月的 RCT 实证研究——AI 让资深开发者慢 19%。</li>
+<li>MIT 2025 年 8 月报告——95% 企业 GenAI 试点零回报。</li>
+<li>Stack Overflow 2025 调查——开发者信任度从 40% 跌到 29%。</li>
+<li>Apple 2025 年 6 月《Illusion of Thinking》论文——推理模型在高复杂度任务上"complete accuracy collapse"。</li>
+<li>Klarna 2025 年 5 月公开承认 AI 客服失败、反向招回。</li>
+<li>Sam Altman 2025 年 8 月公开承认"AI 是泡沫"。</li>
+</ul>
+<p>但跟 1958 年不同的是，<strong>2025 年还没有出现一次集中的"反右倾"运动来压住这些纠错声音</strong>。这是 AI 大跃进跟 1958 大跃进最重要的一个差异——<strong>前者的批评通道还开着</strong>。这个差异决定了它的代价上限不会是 1958-1962 那种规模的悲剧。</p>
+<p>但批评通道开着，不等于狂热停了。Cursor 估值仍在涨；Anthropic 估值仍在涨；OpenAI 仍在融。<strong>纠错信号被吸收，但飞轮没停</strong>——这是 2025-2026 年的特殊处境。它有点像 1958 年 11 月毛泽东私下已经承认浮夸（"九千亿斤……一千六百亿斤当作谎报"）但庐山反右倾仍然没让纠错落地的中间状态。</p>
+<h4>3.1.5 即时利益与代价对照</h4>
+<p>这一节是最难写的一节，因为<strong>两个时代的"代价"在量级上完全不可比</strong>。1958-1962 年那场代价是约 1500-4500 万人非正常死亡（学界估计）；2023-2026 年这场目前可见的代价是几百亿美元的 VC 浪费、几十万人裁员、一些产品翻车。<strong>两者的伦理重量完全不同，不能等量齐观</strong>。</p>
+<p>但<strong>结构上</strong>，"短期政绩 vs 长期代价"的分布机制是同构的。</p>
+<p><strong>1958 年的即时利益</strong>：</p>
+<ul>
+<li>河南遂平卫星农业社、湖北麻城建国第一农业社、河北徐水"共产主义试点公社"等率先放卫星的乡村干部上《人民日报》头版，被国家领导人视察，获各级"先进""标兵"称号。</li>
+<li>各省委第一书记纷纷追加指标"再保险"——多 1 斤都不接受降低。</li>
+</ul>
+<p><strong>1958 年的最终代价</strong>：</p>
+<ul>
+<li>国家统计局口径"非正常死亡"：1958 约 144 万、1959 约 426 万、<strong>1960 约 999 万（峰值）</strong>、1961 约 271 万、1962 约 24 万。</li>
+<li>学界估计区间：1500 万 — 5500 万。冯客《Mao's Great Famine》估计约 4500 万；杨继绳《墓碑》估计约 3600 万饿死、4000 万少出生。</li>
+<li>农业产量：1958 年 4000 亿斤 → 1960 年 2870 亿斤（-26%）；棉花 -35%；油料 -55%；猪 -56%。整体农业指标<strong>退回到 1951 年水平</strong>。</li>
+</ul>
+<p><strong>2023-2026 年的即时利益</strong>：</p>
+<ul>
+<li>AI 公司估值飞涨：OpenAI 5000 亿美元、Anthropic 3800 亿、Cursor 293 亿、Lovable 66 亿。这些估值给员工纸面带来巨额利益（按 OpenAI 二级市场估算，早期员工持仓价值过亿美元的不在少数）。</li>
+<li>程序员个人变现：Pieter Levels MRR ~13 万美元、3 小时做出的飞行模拟器 17 天月入 8.7 万美元；李一舟 199 元 AI 课一年卖出 25 万套、销售额 5000 万元、3 年累计 1.5-1.75 亿元。</li>
+<li>大厂晋升：把"AI 出码率"做高、"AI 项目交付"作为关键 OKR 完成的中层管理者，2024-2025 普遍获得加速晋升。</li>
+<li>"build in public" 网红化：5 万 Twitter 粉丝的 SaaS 项目里 78% 是回顾性/愿景性更新，仅 22% 是真技术细节。</li>
+</ul>
+<p><strong>2023-2026 年的最终代价</strong>（已经显形的部分）：</p>
+<ul>
+<li><strong>裁员</strong>：2024 年全球科技裁员 26.2 万、2025 年截至 11 月 15.7 万——其中 <strong>73% 在公开理由里提及 AI 或自动化</strong>（2024 年 58%）。微软 2025 年 5 月单次裁 6000 人，<strong>Washington 州被裁员工里 53% 是软件工程师</strong>——同一周 Nadella 公开 30% 代码由 AI 写。</li>
+<li><strong>校招塌方</strong>：纽约联邦储备银行 2025 年 8 月数据，CS 应届毕业生失业率 6.1%（vs 全本科应届均值 4.8%），CS 在所有专业中失业率第 7 高。Indeed 软件开发岗位 2022.02 至 2025.08 下降 71%。15 大科技公司应届生招聘比 2019 年下降 50%+。</li>
+<li><strong>VC 浪费</strong>：高盛 2024 年 6 月估算，大科技公司未来几年将在 AI 数据中心、芯片、基础设施上烧约 1 万亿美元，"目前没什么可展示的成果"。Sequoia 2024.6 算出 5000 亿美元收入黑洞——AI 公司必须达到的年化收入 vs 实际收入的差距。</li>
+<li><strong>人才错配</strong>：被打鸡血的应届生大量涌入"vibe coding"、"prompt engineer"赛道——但这些赛道的工具会迭代极快，3 年后可能彻底变形。</li>
+</ul>
+<p><strong>结构同构点</strong>：</p>
+<ul>
+<li><strong>即时利益集中在顶层和早期参与者，长期代价分散到底层和后入者</strong>。1958 年放卫星的县委书记上头版，公社社员承担征购代价；2023-2026 年 CEO 拿了估值飞涨的纸面利益、早期 AI 工程师拿了股票期权暴富，应届生承担初级岗位塌方。</li>
+<li><strong>即时利益的兑现期短于代价的兑现期</strong>。1958 年的卫星报道当年就让放报者升迁，饥荒在 1960 年才到顶峰。2023 年 Sam Altman 吹下的支票，许多到 2026 年仍未兑现，但他个人的影响力和 OpenAI 的估值已经在 2023-2024 兑现完毕。</li>
+<li><strong>统计上的"成功"先于事实上的"成功"出现</strong>。1958 年的"全国丰收"早于实际增产；2024 年的"AI 替代程序员"早于真正的产业级提效。</li>
+</ul>
+<p>但<strong>最重要的差异要再次强调</strong>：</p>
+<p><strong>1958-1962 年的非正常死亡是数千万级的人命；2023-2026 年的代价目前可见的是钱、岗位和职业焦虑。</strong>这两件事在伦理上不应当被等量齐观。把一场资本泡沫的代价跟一场饥荒等价讨论，是对历史的不敬。</p>
+<p>这份报告做的是结构对照，不是道德等同。看清楚两者<strong>机制相似</strong>，不等于宣称两者<strong>后果相同</strong>——前者由更小的代价就足以让我们读懂今天这场狂热的工作原理；让前者的人命不被白白浪费的方式，是让后者不必走完同样的路。</p>
+<h3>3.2 辅助参照系：dot-com、加密、元宇宙</h3>
+<p>把 AI 大跃进和 1958 大跃进放在一起的同时，也要把它跟离我们更近的三场科技泡沫放在一起。这是同期比较——它能告诉我们 AI 大跃进的"科技泡沫"那一面占多少比重，"集体狂热"那一面占多少比重。</p>
+<h4>3.2.1 Dot-com 泡沫（1995-2002）</h4>
+<p><strong>结构骨架</strong>：</p>
+<ul>
+<li>起飞：1995.08.09 Netscape IPO（首日市值 29 亿美元）。</li>
+<li>顶峰：<strong>2000.03.10 Nasdaq 5048.62</strong>（5 年涨幅约 400-600%）。</li>
+<li>底部：<strong>2002.10.09 Nasdaq 1114.11</strong>（自顶峰跌 78%）。</li>
+<li>死亡：1998-2002 年估计 5 万家 dot-com 创立，约 26000 家死亡。</li>
+<li>烧钱标杆：Pets.com（IPO 后 270 天倒闭）、Webvan（烧 8.3 亿美元）、Boo.com（18 个月烧 1.35 亿）、Flooz.com、Kozmo.com。</li>
+<li>"狂热宣言"：Henry Blodget 1998 把 Amazon 目标价上调至 $400；Wired 1997 "The Long Boom" 副标题"25 年的繁荣"。</li>
+</ul>
+<p><strong>与 AI 大跃进的相似处</strong>：</p>
+<ul>
+<li>起点都是一个真实的、有规模的技术变革（互联网/LLM）。</li>
+<li>资本侧的反应速度都远快于产品侧的兑现速度。</li>
+<li>都出现"必须有自己的版本"的同质化竞赛——dot-com 时代每个传统行业都要有 X-online；AI 时代每个公司都要有自己的大模型。</li>
+<li>都有标志性的"演示造假/估值异常"：dot-com 时代是 Pets.com sock puppet 上 Super Bowl；AI 时代是 Devin 演示视频。</li>
+</ul>
+<p><strong>与 AI 大跃进的差异</strong>：</p>
+<ul>
+<li>dot-com 的崩盘是相对干净的——指数级清空（78% 跌幅）后行业重建。AI 大跃进到 2026 年仍未经历这种 sweep。</li>
+<li>dot-com 留下了非常厚实的真实价值——5000 亿美元的光纤基础设施、Amazon、Google、电商。AI 大跃进还没经历完整的"留下什么"那一步。</li>
+<li>dot-com 时代不存在 1958 那种"全行业 KPI 化"的现象——它更多是 VC 烧钱试错，没有把整个公司内部的指标体系改写。<strong>AI 大跃进有这一步——它已经渗透到了大厂内部 OKR 文档</strong>。这一点是它跟 dot-com 最大的区别，也是它跟 1958 大跃进最大的相似。</li>
+</ul>
+<h4>3.2.2 加密 / Web3 热潮（2017-2023）</h4>
+<p><strong>结构骨架</strong>：</p>
+<ul>
+<li>第一波顶峰：2017.12 BTC $19,783；ICO 2017 全年募资 65 亿美元。</li>
+<li>第二波顶峰：<strong>2021.11 BTC $68,789；ETH $4,878；总加密市值近 3 万亿美元</strong>。</li>
+<li>NFT 顶峰：OpenSea 2022.01 月成交 50 亿美元；BAYC 地板价 2022.04 ~128 ETH（39.5 万美元）。</li>
+<li>崩塌点：<strong>2022.05 LUNA 一周跌 99.9%（600 亿美元市值蒸发）；2022.11 FTX 申请破产（32 亿估值清零，账户 80 亿缺口）</strong>。</li>
+<li>标志性人物结局：SBF 25 年监禁、Do Kwon 引渡、CZ 4 个月监禁 + 2 亿美元罚款。</li>
+<li>留下的真实价值：稳定币（2025 年总市值约 3000 亿美元、年化交易额约 33 万亿美元）、BTC ETF、L2 Rollup 技术。</li>
+</ul>
+<p><strong>与 AI 大跃进的相似处</strong>：</p>
+<ul>
+<li>都有"狂热宣言"明星人物——SBF 之于加密、Sam Altman 之于 AI。</li>
+<li>都有"专业人士被卷进去说话"——加密时代是 Andre Cronje、Vitalik、CZ；AI 时代是 Karpathy、Amodei、Altman。</li>
+<li>都有大量"套壳产品"——加密时代是 ICO + 跑路；AI 时代是 GPT 套壳 + 倒闭。</li>
+<li>都有 Super Bowl 级广告投放——Crypto.com $6.5M Super Bowl 2022 广告（一年后 BTC 跌 60%）；AI 同期 Super Bowl 广告 2024-2025 集体出现。</li>
+</ul>
+<p><strong>与 AI 大跃进的差异</strong>：</p>
+<ul>
+<li>加密热潮的核心叙事是"金融自由"，目标群体是散户/年轻人。AI 大跃进的核心叙事是"职业灭绝/生产力革命"，目标群体是企业 CEO 和程序员——<strong>它的话语权被嵌入到企业治理结构里</strong>，比加密更难退场。</li>
+<li>加密热潮里不存在大厂全员 KPI 化——没有哪家大厂强制员工"必须用 BTC 做 30% 报销"。AI 大跃进有——大厂强制员工用 Cursor、TRAE、CodeBuddy。<strong>这一点把 AI 大跃进推得更接近 1958 大跃进，而不是加密</strong>。</li>
+</ul>
+<h4>3.2.3 元宇宙热潮（2021-2023）</h4>
+<p><strong>结构骨架</strong>：</p>
+<ul>
+<li>起飞：2021.10.28 Facebook 改名 Meta；扎克伯格 <em>Founder's Letter</em>："Our hope is that within the next decade, the metaverse will reach a billion people."</li>
+<li>烧钱：<strong>Reality Labs 2020-2024 年累计运营亏损约 644 亿美元</strong>；2025 Q1 单季再亏 42 亿。Reality Labs 2024 全年营收仅 21.4 亿（占 Meta 总营收 1%）。</li>
+<li>单日蒸发：<strong>2022.02.03 Meta 单日跌 26%、市值蒸发 2320 亿美元</strong>——美股史上单日单股最大损失。</li>
+<li>翻车标志：2022.08 Zuckerberg 在 Horizon Worlds 发"埃菲尔铁塔自拍"被全网嘲笑画质像 PS1。</li>
+<li>用户数据：Decentraland 日活约 38 个钱包（DappRadar 数据，2022.10），生态总市值仍 13 亿美元。</li>
+<li>字节 PICO：2021 年以 90 亿元（市场共识价仅 20 亿）收购，2023 年两轮裁员，员工降至 2000 以内。</li>
+</ul>
+<p><strong>与 AI 大跃进的相似处</strong>：</p>
+<ul>
+<li>都从一个"宇宙级"叙事开始——元宇宙是"下一代互联网"；AI 是"AGI"。</li>
+<li>都出现"大厂 CEO 个人重注"——扎克伯格把公司改名 Meta；Sam Altman 一年内见 16 国领导人。</li>
+<li>都有"未达预期"的核心产品——Horizon Worlds vs 个性化 Siri；Quest Pro vs Apple Vision Pro vs AI Pin。</li>
+</ul>
+<p><strong>与 AI 大跃进的差异</strong>：</p>
+<ul>
+<li>元宇宙的塌方非常迅速——18 个月就从 2021.10 改名跌到 2022.11 单日蒸发 2320 亿美元。AI 大跃进已经持续 3.5 年，且仍在继续融资。<strong>AI 比元宇宙有更多真实的产品反馈</strong>（ChatGPT 是真有 7 亿周活的，元宇宙的 Decentraland 是没人去的），所以它能撑得更久。</li>
+<li>元宇宙的代价主要在 Meta 一家公司——644 亿美元几乎全是 Meta 自己烧的；AI 大跃进的代价分散到全行业。<strong>这种分散性让代价更不易被追责</strong>。</li>
+</ul>
+<h4>3.2.4 一张同台对比表</h4>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>1958 大跃进</th>
+<th>dot-com (1995-2002)</th>
+<th>加密 (2017-2023)</th>
+<th>元宇宙 (2021-2023)</th>
+<th>AI 大跃进 (2022.11-?)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>核心狂热口号</td>
+<td>多快好省、超英赶美、亩产万斤</td>
+<td>New Economy、 Long Boom</td>
+<td>金融自由、Web3</td>
+<td>下一代互联网</td>
+<td>AGI、AI 替代白领</td>
+</tr>
+<tr>
+<td>顶层动员者</td>
+<td>党中央 + 各级党委</td>
+<td>华尔街 + 投行分析师</td>
+<td>CZ/SBF/Vitalik 等明星人物</td>
+<td>Zuckerberg 个人重注</td>
+<td>大厂 CEO + Altman/Amodei</td>
+</tr>
+<tr>
+<td>全行业 KPI 化</td>
+<td>✓✓✓ 极强</td>
+<td>✗ 较弱</td>
+<td>✗ 较弱</td>
+<td>✗（仅 Meta 内部）</td>
+<td><strong>✓✓ 强</strong>（AI 出码率指标进入财报会）</td>
+</tr>
+<tr>
+<td>普通参与者损失</td>
+<td>数千万人非正常死亡</td>
+<td>部分员工股票归零</td>
+<td>散户被收割、跑路</td>
+<td>Meta 员工股价腰斩</td>
+<td>应届生岗位塌方、初级开发者裁员</td>
+</tr>
+<tr>
+<td>顶层即时利益</td>
+<td>提拔、政绩</td>
+<td>IPO 套现</td>
+<td>暴富、跑路</td>
+<td>Zuckerberg 净资产 V 形反弹</td>
+<td>估值飞涨、纸面财富</td>
+</tr>
+<tr>
+<td>留下的真实价值</td>
+<td>部分基建 + 教训</td>
+<td>5000 亿美元基础设施、Amazon/Google</td>
+<td>稳定币、BTC ETF、L2</td>
+<td>VR 头显、3D 引擎</td>
+<td>ChatGPT、Claude、Coding 生态——已发生但定型时间未到</td>
+</tr>
+<tr>
+<td>被纠错的速度</td>
+<td>4 年，代价已经发生</td>
+<td>30 个月（顶峰到底部）</td>
+<td>13 个月（峰到底）</td>
+<td>18 个月</td>
+<td><strong>未结束</strong></td>
+</tr>
+</tbody>
+</table>
+<p>读这张表有一个直觉：AI 大跃进<strong>最像的不是离它最近的三场科技泡沫，而是离它最远的那一场社会运动</strong>。dot-com、加密、元宇宙的狂热都没有把整个公司内部 KPI 体系一起改写，而 AI 大跃进做到了。AI 大跃进的飞轮里有一个其他三场都没有的齿轮——<strong>大厂内部的强制 KPI 化</strong>——这正是它跟 1958 年最关键的同构点。</p>
+<hr>
+<h2>四、横纵交汇洞察</h2>
+<p>到这里，纵向（2022-2026 的演变历程）和横向（1958 大跃进 + 三场科技泡沫的对照）都已经摆开了。下面的事，是把这两根轴交叉起来，看清楚它们交点处的判断。</p>
+<h3>4.1 历史如何塑造了今天的位置：三步铸造一场大跃进</h3>
+<p><strong>第一步：信息生产权的集中。</strong> 1958 年是党媒（《人民日报》《新华社》）作为唯一权威信道，决定哪个亩产数字会上头版，哪个会被忽略。2022 年之后是少数几家大厂的 CEO 财报会 + Altman / Amodei / Pichai / Zuckerberg 的少量公开发言，决定整个行业的"AI 进度"叙事。<strong>两个时代里，少数几个信道决定了整个集体的判断坐标</strong>。</p>
+<p><strong>第二步：参与即政绩的反馈环。</strong> 1958 年放卫星的县委书记会上头版，1958 年不放卫星的县委书记会被打成右倾。2023-2025 年公开"AI 出码率 30%"的 CEO 会被资本市场奖励，2023-2025 年保持沉默或公开质疑 AI 的 CEO 会被股价惩罚。<strong>参与狂热被结构性奖励、不参与狂热被结构性惩罚</strong>——这种激励结构本身决定了浮夸是必然的。</p>
+<p><strong>第三步：批评通道被边缘化（不是被关闭）。</strong> 这一点是 AI 大跃进跟 1958 大跃进最重要的差异。1958 年彭德怀的批评通道被庐山会议直接关闭。2025 年 METR、MIT、Apple、Stack Overflow 的批评通道仍然开着，但它们的声量在飞轮的尺度下显得微弱。<strong>关键不是批评有没有，关键是批评能不能改变激励结构</strong>——目前看不能。</p>
+<h3>4.2 历史决策的回看：当年的"好决策"如何变成今天的包袱</h3>
+<p><strong>当年的好决策一</strong>：<strong>2022-2023 大厂"All in AI"</strong>。当时的逻辑是充分的——ChatGPT 是真实的产品、扩散速度是真实的、技术范式转换是真实的。任何理性的 CEO 都应该 All in。</p>
+<p><strong>今天的包袱</strong>：All in 这个动作不能撤销。一旦把 30% 代码 AI 化、Cursor 进入财报会、AI 出码率写进 OKR，<strong>回头说"其实 AI 没那么大用"会触发整个估值体系的重估</strong>。所以即使知道效率没有兑现（METR 19% 减速），也不能公开说。这一点跟 1958 年下半年地方干部已经知道亩产是假的但必须继续上报，结构是同构的。</p>
+<p><strong>当年的好决策二</strong>：<strong>2024 年 Cursor 拿钱拿到底</strong>。当时的逻辑也是充分的——24 个月 ARR 从 0 到 12 亿，是真正的产品市场契合。</p>
+<p><strong>今天的包袱</strong>：293 亿美元估值要求 ARR 持续翻倍，但产品本身的护城河（API 调用 Claude/GPT）是别人的。<strong>它必须用资本换增长，用增长换更高估值，用更高估值换更多资本</strong>——这是 dot-com 时代 Pets.com 走过的路。Pets.com 的代价是倒闭；Cursor 的代价可能是被收购或者横盘几年。</p>
+<p><strong>当年的好决策三</strong>：<strong>程序员个人"build in public" + AI 教程变现</strong>。2023-2024 早期参与者抓到了真红利。</p>
+<p><strong>今天的包袱</strong>：后入场的程序员看到的是 Pieter Levels 的 17 天 8.7 万美元，但忽略了他在动手前已有 40 万 Twitter 粉丝。78% "fake MRR" 的指控不是在指控少数人作假——它在描述一种结构：<strong>当"晒指标"本身成为流量核心，指标真假就不再重要</strong>。这跟 1958 年放卫星演化到河南环江县亩产 13 万斤是同一个机制——重要的是亩产数字本身能被复制传播，不是它是真是假。</p>
+<h3>4.3 三个剧本：从这里到哪里去</h3>
+<p><strong>最可能的剧本（基础剧本）</strong>：<strong>软着陆 + 缓慢去神化</strong>。</p>
+<p>这场狂热不会像 dot-com 一样一夜清空。它的真实产品（ChatGPT、Claude Code）有真实的 7 亿周活，所以它的兑现底部远比 dot-com 高。但 KPI 化的部分会逐步退场——2026-2028 年大厂的 "AI 出码率 30%" 会从财报会上消失，因为口径会被监管或股东逼着澄清。Cursor 估值会从 293 亿回落到 100-150 亿区间（基于真实 ARR 的 20-30 倍），但不归零。一批现在估值数十亿的"AI agent"公司会消失。Apple Intelligence 会在 2027-2028 年逐步真正落地，但叙事不再是"个性化 Siri"，是"系统级辅助"。这个剧本的概率最大，因为它最像每一场过去的泡沫的结尾——dot-com、加密、元宇宙都走的这条路。</p>
+<p><strong>最危险的剧本</strong>：<strong>去伪 + 突然估值重置</strong>。</p>
+<p>触发条件：某一家头部 AI 公司（不一定是 OpenAI 或 Anthropic，可能是某家估值在 50-200 亿区间的应用层公司）出现一次类似 FTX 级别的丑闻——比如被发现 ARR 数字主要来自互相对开发票的关联交易（Builder.ai 模式），或者发现某家公司的"AI Agent 接受率"是用脚本批量点 Tab 刷出来的。这种事件会触发整个 AI 公司估值体系的连锁重估，因为所有人会重新审视"AI 出码率""ARR""Agent 接受率"这些指标的真实性。这个剧本的概率不高，但<strong>只要它发生，速度会非常快</strong>——加密时代的 LUNA 是一周内蒸发 600 亿美元。</p>
+<p><strong>最乐观的剧本</strong>：<strong>真正的兑现</strong>。</p>
+<p>2026-2028 年内出现一个真正的"AI 工程师"——它不是 demo，不是 95% 的代码补全率，是能够独立完成一整个中等规模功能（比如"给这个 Web 应用加上一个支持 SSO 的多租户后台"）从需求到上线的全链路任务。这个产品出现之后，过去三年全部的"放卫星"会被回溯重新定义为"过早但没错"——就像 dot-com 时代被吹爆又烧光的电商概念，最后真的兑现成了 Amazon。AI 大跃进会被记住为"路径过激但方向对"，类似 1990s 的互联网泡沫。这个剧本的概率取决于一个具体的技术问题：<strong>LLM 的推理能力是不是真的有 scaling laws 上限</strong>——Apple 那篇《Illusion of Thinking》指向"是"，但还需要 2-3 年数据来确认。</p>
+<h3>4.4 给写代码的你的回环呼应</h3>
+<p>如果你是一个互联网程序员，正在 2026 年的这一刻读这份报告——</p>
+<p>报告开头那段话回到这里：<strong>这两件事的代价、伦理、性质完全不同，混为一谈是不严肃的。</strong>1958 年的农民没得选；2026 年的程序员有得选。这是最重要的一个差异——也是最容易被狂热气氛遮蔽的一个差异。</p>
+<p>但<strong>结构上的相似度足以让你警觉</strong>：</p>
+<ul>
+<li>当你的经理把 "AI 出码率" 写进你的 OKR 时，请记住 1958 年的县委书记把"亩产万斤"写进自己的政绩报告。</li>
+<li>当你看到第 7 个朋友在 Twitter 上晒"我用 Cursor 一周做出 SaaS 月入 10 万"时，请记住 1958 年河南省委第一书记看到湖北放出亩产 36956 斤时的反应。</li>
+<li>当你的老板在全员会上说"AI 是百年未有之大变革"时，请记住 1957 年莫斯科会议上"东风压倒西风"。</li>
+<li>当你下次接受一次 Tab 补全的代码、并被算进"AI 写的代码"统计时，请记住那是 1958 年某个公社把 8 亩稻禾移栽到 1.016 亩里去过秤。</li>
+</ul>
+<p><strong>1958 年的农民没办法选择不放卫星——因为不放就是右倾</strong>。2026 年的你可以选择：</p>
+<ul>
+<li>不把 AI 当作信仰，把它当作工具。它不能替代你的判断，但它能加速你已经形成的判断。</li>
+<li>给自己一个"独立验证习惯"——每个被你接受的 AI 输出，至少在你读懂它的程度上验证一次。这一条习惯可以让你在飞轮上从 1958 年的"放卫星者"变成"自己看一眼田的人"。</li>
+<li>不必反对 AI，但一定要保留怀疑的语法。当所有人都说"模型理解了"，请你说"它在这个分布上的输出像是理解了"。当所有人都说"AI 替代了一半工作"，请你问"哪一半？谁的工作？什么口径？"</li>
+</ul>
+<p>集体狂热的真正解药不是反狂热——是<strong>保持精确</strong>。</p>
+<p>钱学森在 1958 年 6 月写"亩产 4 万斤"那天，他没有撒谎，他只是放弃了精确。他用一个真实的物理上限去支撑一个工程上不可能的数字。他付出的代价不是个人的——是被他那篇文章激励的乡村干部和被那些干部征购的农民付出的。<strong>精确是底层程序员的最后一道护城河</strong>。当 KPI 在膨胀、估值在飞、demo 在放卫星，<strong>坚持把每个数字的口径搞清楚</strong>这件事——这一件事——就是在 2026 年的写代码的你，跟 1958 年的农民最不一样的地方。</p>
+<p>愿这份报告能让你在下一次 standup 上说出"等一下，这个 30% 是怎么算的？"的时候，有一秒钟的底气。</p>
+<hr>
+<h2>五、信息来源</h2>
+<blockquote>
+<p>本报告基于横纵分析法（Horizontal-Vertical Analysis）撰写。横纵分析法由数字生命卡兹克（Khazix）提出，融合了语言学的历时-共时分析、社会科学的纵向-横截面研究设计、商学院案例研究法和竞争战略分析的核心思想。所有具体事实和数据均带原始来源 URL。</p>
+</blockquote>
+<h3>5.1 ChatGPT 起飞与早期反应（2022.11 - 2023.6）</h3>
+<ul>
+<li>OpenAI ChatGPT 发布博客：https://openai.com/blog/chatgpt</li>
+<li>Sam Altman "1 million users in 5 days" 推文：https://techstartups.com/2022/12/05/chatgpt-crosses-1-million-users-five-days-launch/</li>
+<li>UBS "ChatGPT 是史上最快互联网应用"报告：https://www.businessinsider.com/chatgpt-may-be-fastest-growing-app-in-history-ubs-study-2023-2</li>
+<li>Google "Code Red"：https://www.businessinsider.com/google-management-issues-code-red-over-chatgpt-report-2022-12</li>
+<li>Nvidia GTC 2023 "iPhone moment of AI"：https://blogs.nvidia.com/blog/gtc-keynote-spring-2023/</li>
+<li>Stratechery interview with Jensen Huang：https://stratechery.com/2023/an-interview-with-nvidia-ceo-jensen-huang-about-ais-iphone-moment/</li>
+<li>马化腾"百年未有"原话：https://news.qq.com/rain/a/20230524A001UN00/</li>
+<li>陆奇"三个拐点"演讲：https://www.thepaper.cn/newsDetail_forward_23057456</li>
+<li>王慧文 5000 万美元朋友圈 + 王兴 3.8 朋友圈：https://m.mp.oeeee.com/a/BAAFRD000020230308771272.html</li>
+<li>王小川百川智能成立："我们追上 GPT-3.5 今年内可能就能够实现"：https://news.qq.com/rain/a/20230410A04IC300</li>
+<li>阿里通义千问"所有产品都值得用大模型重做一次"：http://www.news.cn/tech/20230411/a9c836b1e2be4211afa1cd1edfabbfb4/c.html</li>
+<li>文心一言"不完美，别比较"：https://www.thepaper.cn/newsDetail_forward_22322073</li>
+<li>IBM CEO "AI 替代后台 30%"：https://arstechnica.com/information-technology/2023/05/ibm-pauses-hiring-around-7800-roles-that-could-be-replaced-by-ai/</li>
+<li>Marc Andreessen "Why AI Will Save the World"：https://a16z.com/2023/06/06/ai-will-save-the-world/</li>
+</ul>
+<h3>5.2 百模大战与 AI Coding 爆发（2023.6 - 2024 上半年）</h3>
+<ul>
+<li>国内大模型数量统计：https://m.nbd.com.cn/articles/2024-05-17/3393020.html</li>
+<li>"AI 六小虎"：https://news.qq.com/rain/a/20240612A08G1500</li>
+<li>月之暗面融资轨迹：https://www.tmtpost.com/7609866.html</li>
+<li>美团收购光年之外公告：https://www.caixin.com/2023-06-29/102070661.html</li>
+<li>GitHub Copilot 100 万付费用户：https://www.zdnet.com/article/microsoft-has-over-a-million-paying-github-copilot-users</li>
+<li>Microsoft Copilot 每月每用户亏损 $20：https://www.techworm.net/2023/10/microsoft-money-github-copilot.html</li>
+<li>GitHub Octoverse 2024：https://github.blog/news-insights/octoverse/octoverse-2024/</li>
+<li>Cursor 各轮融资轨迹：https://app.dealroom.co/companies/anysphere_cursor</li>
+<li>Cursor 是史上最快达到 $1B ARR 的 SaaS：https://andrew.ooo/posts/cursor-fastest-growing-saas-1b-arr</li>
+<li>Devin 发布博客：https://cognition.ai/introducing-devin</li>
+<li>Internet of Bugs "Debunking Devin"（YouTube 视频）：https://www.youtube.com/watch?v=tNmgmwEtoWE</li>
+<li>Devin 估值跳到 $2B：https://aibusiness.com/nlp/six-month-old-ai-startup-behind-devin-now-valued-at-2b</li>
+<li>Cognition $10.2B 估值：https://techcrunch.com/2025/09/08/cognition-ai-defies-turbulence-with-a-400m-raise-at-10-2b-valuation/</li>
+<li>Google Gemini Ultra demo 造假：https://arstechnica.com/information-technology/2023/12/google-admits-it-fudged-a-gemini-ai-demo-video-which-critics-say-misled-viewers</li>
+<li>Sam Altman $5-7T 芯片计划：https://www.wsj.com/tech/ai/sam-altman-seeks-trillions-of-dollars-to-reshape-business-of-chips-and-ai-89ab3db0</li>
+<li>黄仁勋"不要学编程"：https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-advises-against-learning-to-code-leave-it-up-to-ai</li>
+<li>FactSet S&amp;P 500 AI 提及统计：https://insight.factset.com/highest-number-of-sp-500-companies-citing-ai-on-earnings-calls-over-past-10-years</li>
+<li>Microsoft 收购 Inflection AI（acquihire）：https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/</li>
+</ul>
+<h3>5.3 估值飞轮 + KPI 化（2024 末 - 2025 中）</h3>
+<ul>
+<li>Sundar Pichai "AI 写 25% 代码"（Q3 2024 财报会）：https://www.theverge.com/2024/10/29/24282757/google-alphabet-q3-2024-earnings-revenue-profit</li>
+<li>Mark Zuckerberg "midlevel engineer" Joe Rogan 访谈：https://www.businessinsider.com/mark-zuckerberg-meta-ai-replace-engineers-coders-joe-rogan-podcast-2025-1</li>
+<li>Marc Benioff "last generation to manage only humans"：https://www.cnn.com/2025/01/23/business/davos-marc-benioff-salesforce-ai-prediction-intl/</li>
+<li>Salesforce 2025 不再雇软件工程师：https://www.theregister.com/2025/02/27/salesforce_misses_revenue_guidance/</li>
+<li>Dario Amodei "AI 写 90% 代码"：https://officechai.com/ai/my-prediction-of-ai-writing-90-of-code-is-already-true-at-anthropic-anthropic-ceo-dario-amodei/</li>
+<li>Dario Amodei 警告 50% 白领工作消失（Axios 5/28）：https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic</li>
+<li>Satya Nadella "Microsoft 30% 代码 AI 写"：https://techcrunch.com/2025/05/15/programmers-bore-the-brunt-of-microsofts-layoffs-in-its-home-state-as-ai-writes-up-to-30-of-its-code/</li>
+<li>Andy Jassy 6/17 全员信：https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-on-generative-ai</li>
+<li>腾讯 50% 新代码 AI：https://view.inews.qq.com/a/20251025A050WC00</li>
+<li>字节 92% 工程师用 TRAE：https://view.inews.qq.com/a/20251219A05C2G00</li>
+<li>Karpathy "vibe coding" 推文：https://simonwillison.net/2025/Feb/6/andrej-karpathy</li>
+<li>Garry Tan "YC W25" 数据：https://www.businessinsider.com/vibe-coding-startups-impact-leaner-garry-tan-y-combinator-2025-3</li>
+<li>Lovable 估值轨迹：https://en.wikipedia.org/wiki/Lovable_(company) ；https://www.finsmes.com/2025/12/lovable-raises-330m-in-series-b-funding-at-6-6-billion-valuation.html</li>
+<li>Vercel "30% apps by AI agents"：https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/</li>
+<li>Anthropic Series F：https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</li>
+<li>Anthropic Series G $380B：https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation</li>
+<li>OpenAI $500B 二级估值：https://www.bloomberg.com/news/articles/2025-10-02/openai-completes-share-sale-at-record-500-billion-valuation</li>
+<li>Windsurf 戏剧性事件：https://venturebeat.com/programming-development/remaining-windsurf-team-and-tech-acquired-by-cognition-makers-of-devin-were-friends-with-anthropic-again</li>
+</ul>
+<h3>5.4 翻车与浮夸代价显形（2024 中 - 2026 中）</h3>
+<ul>
+<li>Humane AI Pin 翻车：https://techcrunch.com/2025/02/18/humanes-ai-pin-is-dead</li>
+<li>The Verge "absolutely no one should buy it"：https://www.theverge.com/24132139/humane-ai-pin-launch-review</li>
+<li>Rabbit R1 套壳实锤（Android Authority）：https://www.androidauthority.com/rabbit-r1-is-an-android-app-3438805/</li>
+<li>Coffeezilla "Rabbit Gaslit Me, So I Dug Deeper"（YouTube）：https://www.youtube.com/watch?v=zLvFc_24vSM</li>
+<li>Friend.com 域名 $1.8M：https://www.fastcompany.com/91163068/this-always-listening-ai-necklace-wants-to-be-your-new-best-friend</li>
+<li>Apple Intelligence 推迟到 2026：https://www.bloomberg.com/news/articles/2025-03-07/apple-confirms-delay-of-ai-infused-personalized-siri-assistant</li>
+<li>Apple《The Illusion of Thinking》论文：https://machinelearning.apple.com/research/illusion-of-thinking</li>
+<li>Builder.ai 700 印度工程师扮 AI：https://www.bloomberg.com/news/articles/2025-05-30/builder-ai-faked-business-with-indian-firm-verse-to-inflate-sales-sources-say</li>
+<li>Builder.ai 破产细节：https://www.techspot.com/news/108173-builderai-collapses-after-revelation-ai-hundreds-engineers.html</li>
+<li>国内 AI 企业 78,612 家"消失"：https://www.morketing.com/detail/27484</li>
+<li>AI Graveyard 数据库：https://tooldirectory.ai/ai-graveyard</li>
+<li>零一万物预训练并入阿里：https://finance.sina.com.cn/roll/2025-01-09/doc-ineeitny9747373.shtml</li>
+<li>澜码科技裁员 66%：https://finance.sina.com.cn/stock/aigcy/2025-04-16/doc-inetiwez4561005.shtml</li>
+<li>Cursor 6 月改价被反水：https://forum.cursor.com/t/urgent-feedback-concerns-regarding-cursors-new-pricing-model-and-auto-models-acknowledging-june-2025-pricing-update/115205</li>
+<li>Cursor 退款公告：https://cursor.com/blog/june-2025-pricing</li>
+<li>Replit Agent 删库事件：https://www.theregister.com/2025/07/21/replit_saastr_vibe_coding_incident/</li>
+<li>Anthropic Claude Code postmortem：https://www.anthropic.com/engineering/april-23-postmortem</li>
+<li>METR 2025 RCT 实证研究（PDF）：https://metr.org/Early_2025_AI_Experienced_OS_Devs_Study.pdf</li>
+<li>METR 研究 Ars Technica 报道：http://arstechnica.com/ai/2025/07/study-finds-ai-tools-made-open-source-software-developers-19-percent-slower/</li>
+<li>MIT《GenAI Divide: State of AI in Business 2025》：https://www.computing.co.uk/news/2025/ai/mit-report-95pc-corporate-generative-ai-pilots-fail</li>
+<li>Stack Overflow 2025 开发者调查：https://survey.stackoverflow.co/2025/AI</li>
+<li>Sam Altman "AI 是泡沫"：https://qz.com/sam-altman-ai-bubble-open-ai-warning</li>
+<li>Klarna 反向招回：https://cnbc.com/2025/05/14/klarna-ceo-says-ai-helped-company-shrink-workforce-by-40percent.html</li>
+<li>Bill Gurley "AI 泡沫即将破"：https://fortune.com/2026/03/17/is-ai-bubble-bill-gurley-run-out-of-money/</li>
+<li>高盛《Gen AI: Too Much Spend, Too Little Benefit?》：https://www.goldmansachs.com/insights/top-of-mind/gen-ai-too-much-spend-too-little-benefit</li>
+<li>Sequoia "$600B Question"：https://www.sequoiacap.com/article/ais-600b-question/</li>
+</ul>
+<h3>5.5 大跃进史实（1958-1962）</h3>
+<ul>
+<li>维基百科"大跃进"：https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%B7%83%E8%BF%9B</li>
+<li>维基百科"放卫星"：https://zh.wikipedia.org/wiki/%E6%94%BE%E5%8D%AB%E6%98%9F</li>
+<li>维基百科"信阳事件"：https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%98%B3%E4%BA%8B%E4%BB%B6</li>
+<li>维基百科"七千人大会"：https://zh.wikipedia.org/wiki/%E4%B8%83%E5%8D%83%E4%BA%BA%E5%A4%A7%E4%BC%9A</li>
+<li>维基百科"土法炼钢"：https://zh.wikipedia.org/wiki/%E5%9C%9F%E6%B3%95%E7%85%89%E9%8B%BC</li>
+<li>维基百科"除四害"：https://zh.wikipedia.org/wiki/%E9%99%A4%E5%9B%9B%E5%AE%B3</li>
+<li>毛泽东"东风压倒西风"演讲（1957.11.18）：https://www.marxists.org/chinese/maozedong/1968/3-121.htm</li>
+<li>北戴河会议人民公社决议（1958.8）：https://zh.wikisource.org/wiki/%E4%B8%AD%E5%85%B1%E4%B8%AD%E5%A4%AE%E5%85%B3%E4%BA%8E%E5%9C%A8%E5%86%9C%E6%9D%91%E5%BB%BA%E7%AB%8B%E4%BA%BA%E6%B0%91%E5%85%AC%E7%A4%BE%E9%97%AE%E9%A2%98%E7%9A%84%E5%86%B3%E8%AE%AE</li>
+<li>钱学森《粮食亩产量会有多少？》原文：http://liangzicn.blogspot.com/2009/10/blog-post_149.html</li>
+<li>麻城亩产 36956 斤报道（《人民日报》1958.8.13）：http://www.yhcw.net/famine/Reports/news580813.html</li>
+<li>"彻底纠正五风问题"：https://baike.baidu.com/item/%E5%BD%BB%E5%BA%95%E7%BA%A0%E6%AD%A3%E2%80%9C%E4%BA%94%E9%A3%8E%E2%80%9D/15109624</li>
+<li>信阳事件研究：https://chinadigitaltimes.net/chinese/311592.html</li>
+<li>Wikipedia "Great Chinese Famine"：https://en.wikipedia.org/wiki/Great_Chinese_Famine</li>
+<li>Wikipedia "Lushan Conference"：https://en.wikipedia.org/wiki/Lushan_Conference</li>
+<li>Frank Dikötter《Mao's Great Famine》核心论点：https://www.frankdikotter.com/books/maos-great-famine/key-arguments.html</li>
+<li>中共"非正常死亡"统计（《全国各省、自治区、直辖市历史统计资料汇编 1949-1989》）：http://www.yhcw.net/famine/Data/ExDeath02.html</li>
+<li>1981 年《关于建国以来党的若干历史问题的决议》：https://zh.wikipedia.org/wiki/%E5%85%B3%E4%BA%8E%E5%BB%BA%E5%9B%BD%E4%BB%A5%E6%9D%A5%E5%85%9A%E7%9A%84%E8%8B%A5%E5%B9%B2%E5%8E%86%E5%8F%B2%E9%97%AE%E9%A2%98%E7%9A%84%E5%86%B3%E8%AE%AE</li>
+</ul>
+<h3>5.6 三场参照泡沫</h3>
+<ul>
+<li>Wikipedia "Dot-com bubble"：https://en.wikipedia.org/wiki/Dot-com_bubble</li>
+<li>Pets.com 倒闭：https://www.investopedia.com/ask/answers/08/dotcom-pets-dot-com.asp</li>
+<li>Webvan 倒闭：https://money.cnn.com/2001/07/09/technology/webvan/</li>
+<li>Wired "The Long Boom"（1997.07）：https://www.wired.com/1997/07/longboom/</li>
+<li>Henry Blodget 把 Amazon 目标价上调至 $400：https://money.cnn.com/1998/12/16/technology/amazon/</li>
+<li>Wikipedia "Bankruptcy of FTX"：https://en.wikipedia.org/wiki/Bankruptcy_of_FTX</li>
+<li>Wikipedia "Sam Bankman-Fried"：https://en.wikipedia.org/wiki/Sam_Bankman-Fried</li>
+<li>LUNA 崩盘：https://time.com/6177567/terra-ust-crash-crypto/</li>
+<li>Crypto.com Super Bowl 广告 + Matt Damon："Fortune Favors the Brave"：https://crypto.com/us/company-news/crypto-com-launches-global-brand-campaign-2</li>
+<li>BlackRock 现货 BTC ETF：https://www.businesswire.com/news/home/20240110502668/en/BlackRocks-Bitcoin-ETF-IBIT-Clears-Final-SEC-Hurdle</li>
+<li>稳定币 2025 链上交易总额：https://reports.artemisanalytics.com/stablecoins/artemis-stablecoin-payments-from-the-ground-up-2025.pdf</li>
+<li>Meta Founder's Letter（2021.10.28）：https://about.fb.com/news/2021/10/founders-letter/</li>
+<li>Meta 单日蒸发 2320 亿美元：https://www.cnbc.com/2022/02/03/facebooks-237point6-billion-drop-in-value-sets-all-time-record.html</li>
+<li>Reality Labs 累计亏损：https://www.statista.com/statistics/1290156/meta-reality-labs-operating-income/</li>
+<li>Decentraland 38 日活：https://www.coindesk.com/web3/2022/10/07/its-lonely-in-the-metaverse-decentralands-38-daily-active-users-in-a-13b-ecosystem/</li>
+<li>字节 PICO 收购：https://en.pingwest.com/a/11487</li>
+<li>PICO 裁员：https://techcrunch.com/2023/11/09/bytedances-oculus-challenger-pico-lays-off-hundreds-halts-aggressive-expansion/</li>
+<li>Apple Vision Pro：https://www.bloomberg.com/news/articles/2024-02-02/apple-fans-line-up-for-headset-as-spatial-computing-era-begins</li>
+</ul>
+<h3>5.7 AI 课程变现 / "build in public" 文化</h3>
+<ul>
+<li>李一舟下架报道：https://www.thepaper.cn/newsDetail_forward_26416439</li>
+<li>李一舟课程矩阵分析：https://view.inews.qq.com/a/20240315A03B5B00</li>
+<li>ChatGPT 课程"周入百万"：https://36kr.com/p/2218858344739462</li>
+<li>Pieter Levels 飞行模拟器（plainenglish）：https://plainenglish.io/artificial-intelligence/vibe-coding-gave-a-generation-of-developers-the-wrong-finish-line</li>
+<li>"Fake MRR Pandemic"：https://indieradar.app/blog/fake-mrr-pandemic-real-benchmarks</li>
+<li>"Build in Public" 失败率分析：https://novvista.com/building-in-public-in-2026-has-the-strategy-been-gamed-or-does-transparency-still-drive-growth/</li>
+</ul>
+<h3>5.8 就业与裁员数据</h3>
+<ul>
+<li>Layoffs.fyi（追踪科技裁员的实时数据库）：https://layoffs.fyi</li>
+<li>TechCrunch 2024 裁员追踪：https://techcrunch.com/2024/12/04/tech-layoffs-2024-list</li>
+<li>AI Exposure（裁员是否提及 AI 追踪）：https://www.aiexposure.org/layoffs</li>
+<li>Microsoft 7 月 9000 人裁员：https://www.bbc.com/news/articles/cdxl0w1w394o</li>
+<li>纽约联储 CS 应届失业率：https://us.cnn.com/2025/08/28/tech/computer-science-graduates-job-hunt-ai</li>
+<li>SF Standard "white-collar recession"：https://sfstandard.com/2025/05/20/silicon-valley-white-collar-recession-entry-level</li>
+<li>中国大模型岗位脉脉数据：https://www.xkb.com.cn/articleDetail/339720</li>
+</ul>
+<hr>
+<p><strong>报告完。</strong></p>
+</body>
+</html>

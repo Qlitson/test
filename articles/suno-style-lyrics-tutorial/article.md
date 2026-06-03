@@ -134,7 +134,7 @@
 | Upbeat | 欢快 |
 | Energetic | 有活力 |
 | Dreamy | 梦幻 |
-| Ethereal | 空灵 |
+| Ethereal | 空灵（实测常被 Suno 忽略，想稳改用 dreamy） |
 | Chill | 慵懒放松 |
 | Romantic | 浪漫 |
 | Hopeful | 充满希望 |
@@ -222,7 +222,7 @@
 | 迪斯科 Disco | 110-130 |
 | House / EDM | 120-130 |
 
-表是死的，搭配是活的。 你不用全用上，每一类挑一两个最对味的，按前面那个公式的顺序串起来，一段 Style 就成了。
+表是死的，搭配是活的。 你不用全用上，每一类挑一两个最对味的，按前面那个公式的顺序串起来，一段 Style 就成了。对了，这些词是描述，不是开关，Suno 会朝那个方向靠，但响应有强有弱，个别词比如 ethereal 它干脆懒得理你。所以重要的方向，多写一两个近义词去强化，比押宝单个词稳。
 
 好，公式和速查表都给你了，我们当场就照着《唯一》的味道，给《只有你》写一段 Style。
 
@@ -368,11 +368,18 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 | 标签 | 中文意思 |
 | --- | --- |
-| [Harmonies] | 加一层和声 |
+| [Harmonies] | 加一层和声，最稳 |
+| [Backing Vocals] | 背景和声，稳 |
 | [Choir] | 合唱团 |
-| [Lush BGVs: "词"] | 厚背景和声，指定唱什么词 |
-| [BVs echo: "词"] | 背景人声回声式重复 |
-| [BVs in thirds: "词"] | 三度和声，更圆润 |
+| [Lush BGVs: "词"] | 厚背景和声并指定唱词（进阶，来源单一，不保证稳定） |
+| [BVs echo: "词"] | 背景人声回声重复（进阶，不保证稳定） |
+| [BVs in thirds: "词"] | 三度和声（进阶，不保证稳定） |
+
+用这些标签之前，有句大实话我得先说。
+
+这些方括号标签，是信号，不是命令。 你写了，是在告诉 AI 你想要啥，但它不一定百分百照做，而且不同标签的听话程度差很远。像 whisper、belting、rap、humming、spoken word 这几个，基本写了就中，是最稳的一档。像 build、drop、key change、还有那几个指定背景和声唱词的，属于看运气的一档，最好在 Style 框和歌词里都提一嘴，命中率更高。还有些参数类的纯属安慰剂，比如有人写 [Reverb: 30%] 这种数值，Suno 根本不认，白写。
+
+所以别指望写了标签就铁定生效，多生成几遍、把重要的标签前后呼应着写，才是正经办法。
 
 表给你了，我挑几个最常用的，再多说两句。
 
@@ -380,9 +387,9 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 升调，是华语情歌的经典催泪杀招，最后一遍副歌用 `[Key Change Up]` 升半个调，鸡皮疙瘩都起来了。
 
-背景和声，写成 `[Lush BGVs: "最爱 最爱"]`，AI 就会在主唱后面叠一层和声，唱你指定的词，副歌饱满度直接拉满。
+背景和声，最稳的写法是 `[Harmonies]`，AI 会在主唱后面叠一层和声，副歌饱满度直接拉满。也有人用 `[Lush BGVs: "歌词"]` 这种能指定背景和声唱词的进阶写法，但它来源比较单一，不保证每次都生效，想稳还是用 `[Harmonies]`。
 
-还有个进阶玩法，叠加。 你可以在一个标签里塞好几个指令，用竖线 `|` 隔开，比如 `[Final Chorus: Key Change Up | Lush BGVs]`，一句话把升调和厚和声两件事说清楚。
+还有个进阶玩法，叠加。 你可以在一个标签里塞好几个指令，用竖线 `|` 隔开，比如 `[Final Chorus: Key Change Up | Harmonies]`，一句话把升调和厚和声两件事说清楚。
 
 好，重点来了，说说那段 rap。
 
@@ -417,7 +424,7 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 (spoken)
 [Build]
 
-[Final Chorus: Key Change Up | Lush BGVs]
+[Final Chorus: Key Change Up | Harmonies]
 
 [Outro: Emotional, Fade Out]
 [End]
@@ -504,9 +511,9 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 我还是会 牵着你的手
 说同样这句话
 
-[Final Chorus: Key Change Up | Lush BGVs]
+[Final Chorus: Key Change Up | Harmonies]
 你是我说不出口的最爱
-[Lush BGVs: "最爱 最爱"]
+[Harmonies]
 是我兜兜转转 最后的依赖
 就算全世界 把我推开
 我也认定 是你 不更改
@@ -596,8 +603,7 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 | --- | --- |
 | belting | 放声高唱 |
 | falsetto | 假音 |
-| head voice | 头声 |
-| chest voice | 胸声 |
+| head voice / chest voice | 头声 / 胸声（真实声乐术语，但 Suno 基本不响应，慎用） |
 | vibrato | 颤音 |
 | vocal runs / riffs | 转音、花腔 |
 | melisma | 一字多音 |
@@ -719,9 +725,9 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 我还是会 牵着你的手
 说同样这句话
 
-[Final Chorus: Key Change Up | Lush BGVs]
+[Final Chorus: Key Change Up | Harmonies]
 你是我说不出口的最爱
-[Lush BGVs: "最爱 最爱"]
+[Harmonies]
 是我兜兜转转 最后的依赖
 就算全世界 把我推开
 我也认定 是你 不更改

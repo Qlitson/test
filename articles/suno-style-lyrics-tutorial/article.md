@@ -289,11 +289,13 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 [Chorus]
 
+[Post-Chorus]
+
 [Verse 2]
 
-[Chorus]
-
 [Rap Verse]
+
+[Piano Solo]
 
 [Bridge]
 
@@ -304,7 +306,7 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 [End]
 ```
 
-看见没，哼唱前奏开场，主歌到副歌唱两轮，然后插一段说唱换换口味，再用桥段沉下来，最后一遍副歌升华，尾奏收掉，强制结束。这就是一首有起伏、有层次的歌的骨架，现在它还是空的，但架子立住了。
+看见没，哼唱前奏开场，主歌进副歌，副歌后挂一句洗脑的 Post-Chorus，第二段主歌之后插一段说唱换换口味，再留一段钢琴独奏喘口气，然后用桥段沉下来，最后一遍副歌升华，尾奏收掉，强制结束。这就是一首有起伏、有层次的歌的骨架，现在它还是空的，但架子立住了。
 
 这是成品的第二块。
 
@@ -405,34 +407,47 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 [Intro: Soft Piano, Gentle Humming]
 (humming) 嗯～ 喔～
 
-[Verse 1]
+[Verse 1: Sparse, Close Mic]
 (whispered)
+(softer)
 
-[Pre-Chorus: Building]
+[Pre-Chorus: Building Tension]
+[Build]
 
-[Chorus]
+[Chorus: Anthemic | Stacked Harmonies]
 (belted)
+(ad-libs)
+
+[Post-Chorus]
+(oh-oh-oh)
 
 [Verse 2]
-
-[Chorus]
+(falsetto)
 
 [Rap Verse]
 (rap)
 
+[Piano Solo]
+
 [Bridge: Stripped Back, Piano Only]
 (spoken)
+[Stop]
+(soft)
 [Build]
 
-[Final Chorus: Key Change Up | Harmonies]
+[Final Chorus: Key Change Up | Choir]
+(belted)
+[Backing Vocals]
+(vibrato)
 
 [Outro: Emotional, Fade Out]
+(humming)
 [End]
 ```
 
-哼唱开场，主歌气声，副歌放开吼，第三段切说唱，桥段先念白再 `[Build]` 把情绪重新堆起来，最后一遍副歌升调加厚和声，尾奏渐弱消失，再 `[End]` 焊死结尾。
+哼唱开场，主歌叠上 Sparse 和 Close Mic 显得贴耳、用气声唱，副歌叠 Anthemic 和 Stacked Harmonies 放开吼、再甩两句 ad-libs，副歌后用 Post-Chorus 挂个洗脑钩子，第二段主歌来句假音，第三段直接切说唱，留一段钢琴独奏，桥段先念白、一个 `[Stop]` 突然顿住、再 `[Build]` 把情绪堆回来，最后一遍副歌升调叠合唱团、加 `(vibrato)` 颤音飙上去，尾奏哼着渐弱消失，再 `[End]` 焊死结尾。
 
-一个小提醒，行内标签别每行都加，加多了 AI 反而乱。就在情绪的关键转折点点一下，对比才强。
+一个小提醒，我这骨架是教学示范，故意把标签铺得比较满让你看全。你自己写的时候别每行都加，加多了 AI 反而乱，挑情绪的关键转折点点一下，对比才强。
 
 这是成品的第三块。骨架开始有血有肉了。
 
@@ -458,73 +473,75 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 还有几个雷，我直接帮你标出来别踩。生僻字多音字少用，AI 会念错。中英文别瞎混，除非你故意的，不然发音怪。叠字别堆，想哼唱就用 `(humming)`。
 
-好，废话不多说，我把《只有你》的词填进去。你重点感受几个地方，主歌每句都短、留了白，副歌押开口的 ai 韵（最爱 / 依赖 / 推开 / 不更改 / 未来），那段 rap 押得又密又连（永远 / 体验 / 偏见 / 诗篇 / 明天 / 一千遍 / 红毯 / 一面），读起来就带 flow。
+好，废话不多说，我把《只有你》的词填进去。这一版我故意把前面教的技巧尽量都用上了，当个活教材使。你重点感受几个地方，主歌每句都短、留了白，副歌押前鼻音（灯 / 人 / 心），收在开口音上方便飙高音，那段 rap 押得又密又连（注定 / 风景 / 笃定 / 净 / 曾经 / 呼吸 / 剧情 / 有你），读起来就带 flow。
 
 ```
 [Intro: Soft Piano, Gentle Humming]
 (humming) 嗯～ 喔～
 
-[Verse 1]
-(whispered) 人海里 那么多灯火
-偏偏 我只看见一个
-你转身的时候
-世界都安静了
+[Verse 1: Sparse, Close Mic]
+(whispered) 凌晨的城市 还亮着零星
+我习惯了 一个人的安静
+(softer) 直到你发来 一句晚安
+心跳才 有了回应～
 
-[Pre-Chorus: Building]
-我数过 所有的星座
-都不及 你笑着看我
-心跳 藏不住了
+[Pre-Chorus: Building Tension]
+原来孤独
+是没遇见你之前 临时的形状
+[Build]
+原来想念 会让一个大人 突然就慌
 
-[Chorus]
-(belted) 你是我说不出口的最爱
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+[Chorus: Anthemic | Stacked Harmonies]
+(belted) 你是我 兵荒马乱里的灯
+是我走多远 也不会迷的人
+(ad-libs) 全世界 吵到失了声
+只有你说话 我才安了心
+原来爱 不必惊天动地
+是陪你 把平凡 过成唯一
+
+[Post-Chorus]
+(oh-oh-oh) 过成唯一～
 
 [Verse 2]
-我也曾 一个人走过
-以为 爱不过是经过
-直到遇见你
-才懂得什么是舍不得
-
-[Chorus]
-你是我说不出口的最爱
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+你不是 我幻想里的剧情
+你比那 更普通也更动人
+(falsetto) 你会笑我 笨拙的认真
+还是 把我放进余生
 
 [Rap Verse]
-(rap) 从前的我 不相信永远
-觉得爱 都是限时的体验
-直到你出现 拆掉我的偏见
-一句一句 写成了诗篇
-数着日子 从昨天到明天
-你的名字 我念了一千遍
-不要誓言 也不要红毯
-我要的未来 只有你这一面
+(rap) 说实话 我从不信什么命中注定
+觉得爱 都是临时的风景
+可你一来 就推翻我所有的笃定
+把我的防备 拆得干干净净
+我数过 我们之间多少个曾经
+从陌生 到把名字 刻进呼吸
+不需要 什么惊艳的剧情
+我只要 平凡的明天 里都有你
+
+[Piano Solo]
 
 [Bridge: Stripped Back, Piano Only]
-(spoken) 如果有天我老得走不动
+(spoken) 如果有天 我们都老得很慢
+[Stop]
+(soft) 我还想牵着你
 [Build]
-我还是会 牵着你的手
-说同样这句话
+把这首歌 唱完
 
-[Final Chorus: Key Change Up | Harmonies]
-你是我说不出口的最爱
-[Harmonies]
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+[Final Chorus: Key Change Up | Choir]
+(belted) 你是我 兵荒马乱里的灯
+[Backing Vocals]
+是我走多远 也不会迷的人
+全世界 吵到失了声
+(vibrato) 只有你说话 我才安了心～
 
 [Outro: Emotional, Fade Out]
-(soft) 唯一想要的未来
+(humming) 把平凡 过成唯一～
 [End]
 ```
 
-念一遍，是不是挺顺的。这就是可唱性。
+念一遍，是不是比之前那种口水词耐听一点。这就是可唱性。
+
+我得说句实在话，这一版我是当教材写的，技巧塞得特别满，几乎每段都挂着标签。你自己真做歌的时候不用这样，挑几个最关键的用就行，塞太满 AI 反而容易乱。我把它塞满，纯粹是想让你一眼看清每个标签长在歌里什么位置。
 
 这是成品的第四块，也是最厚的一块。
 
@@ -678,65 +695,88 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 [Intro: Soft Piano, Gentle Humming]
 (humming) 嗯～ 喔～
 
-[Verse 1]
-(whispered) 人海里 那么多灯火
-偏偏 我只看见一个
-你转身的时候
-世界都安静了
+[Verse 1: Sparse, Close Mic]
+(whispered) 凌晨的城市 还亮着零星
+我习惯了 一个人的安静
+(softer) 直到你发来 一句晚安
+心跳才 有了回应～
 
-[Pre-Chorus: Building]
-我数过 所有的星座
-都不及 你笑着看我
-心跳 藏不住了
+[Pre-Chorus: Building Tension]
+原来孤独
+是没遇见你之前 临时的形状
+[Build]
+原来想念 会让一个大人 突然就慌
 
-[Chorus]
-(belted) 你是我说不出口的最爱
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+[Chorus: Anthemic | Stacked Harmonies]
+(belted) 你是我 兵荒马乱里的灯
+是我走多远 也不会迷的人
+(ad-libs) 全世界 吵到失了声
+只有你说话 我才安了心
+原来爱 不必惊天动地
+是陪你 把平凡 过成唯一
+
+[Post-Chorus]
+(oh-oh-oh) 过成唯一～
 
 [Verse 2]
-我也曾 一个人走过
-以为 爱不过是经过
-直到遇见你
-才懂得什么是舍不得
-
-[Chorus]
-你是我说不出口的最爱
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+你不是 我幻想里的剧情
+你比那 更普通也更动人
+(falsetto) 你会笑我 笨拙的认真
+还是 把我放进余生
 
 [Rap Verse]
-(rap) 从前的我 不相信永远
-觉得爱 都是限时的体验
-直到你出现 拆掉我的偏见
-一句一句 写成了诗篇
-数着日子 从昨天到明天
-你的名字 我念了一千遍
-不要誓言 也不要红毯
-我要的未来 只有你这一面
+(rap) 说实话 我从不信什么命中注定
+觉得爱 都是临时的风景
+可你一来 就推翻我所有的笃定
+把我的防备 拆得干干净净
+我数过 我们之间多少个曾经
+从陌生 到把名字 刻进呼吸
+不需要 什么惊艳的剧情
+我只要 平凡的明天 里都有你
+
+[Piano Solo]
 
 [Bridge: Stripped Back, Piano Only]
-(spoken) 如果有天我老得走不动
+(spoken) 如果有天 我们都老得很慢
+[Stop]
+(soft) 我还想牵着你
 [Build]
-我还是会 牵着你的手
-说同样这句话
+把这首歌 唱完
 
-[Final Chorus: Key Change Up | Harmonies]
-你是我说不出口的最爱
-[Harmonies]
-是我兜兜转转 最后的依赖
-就算全世界 把我推开
-我也认定 是你 不更改
-你是我 唯一想要的未来
+[Final Chorus: Key Change Up | Choir]
+(belted) 你是我 兵荒马乱里的灯
+[Backing Vocals]
+是我走多远 也不会迷的人
+全世界 吵到失了声
+(vibrato) 只有你说话 我才安了心～
 
 [Outro: Emotional, Fade Out]
-(soft) 唯一想要的未来
+(humming) 把平凡 过成唯一～
 [End]
 ```
+
+顺便给你拉一张这首歌的技巧速览，左边是歌里出现的标签，右边是它在演示啥、对应文章哪个维度。你把这首《只有你》当索引，全文的技巧就都能串起来复习。
+
+| 歌里的标签 | 演示的技巧 |
+| --- | --- |
+| `[Intro: Soft Piano, Gentle Humming]` + `(humming)` | 前奏哼唱开场（维度2） |
+| `[Verse 1: Sparse, Close Mic]` | 段落标签叠加修饰（维度2 / 3） |
+| `(whispered)` `(softer)` | 气声、更轻的唱法（维度3） |
+| `[Pre-Chorus: Building Tension]` + `[Build]` | 预副歌助跑加能量爬升（维度3） |
+| `[Chorus: Anthemic \| Stacked Harmonies]` | 叠加语法加和声（维度3） |
+| `(belted)` | 放声高唱爆发（维度3） |
+| `(ad-libs)` | 即兴花腔（维度3 / 6） |
+| `[Post-Chorus]` + `(oh-oh-oh)` | 副歌后洗脑钩子（维度2） |
+| `(falsetto)` | 假音（维度6） |
+| `[Rap Verse]` + `(rap)` | 说唱段（维度3） |
+| `[Piano Solo]` | 乐器独奏间奏（维度2） |
+| `[Stop]` | 突然停顿（维度3） |
+| `(spoken)` | 念白不唱（维度3） |
+| `[Final Chorus: Key Change Up \| Choir]` | 升调加合唱团（维度3 / 6） |
+| `[Backing Vocals]` | 背景和声（维度3） |
+| `(vibrato)` | 颤音（维度6） |
+| 句尾的 `～` | 拖长音（维度4 标点控制） |
+| `[Outro: Emotional, Fade Out]` + `[End]` | 渐弱收尾加强制结束（维度2 / 3） |
 
 ![去生成](images/result-play.png)
 

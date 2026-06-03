@@ -68,6 +68,157 @@
 
 人声那块，要说三层。 这是从「能听」到「好听」的分水岭。光写 `female vocal`（女声），那是新手。真正的写法是说三层，她是谁、她怎么唱、加什么音效。比如 `raspy female vocal`（沙哑的女声）是第一层，`breathy and intimate`（气声、亲密感）是第二层，`dry close-mic`（贴麦干声）是第三层。三层叠起来，那个人声才立得住。
 
+但光给你一个公式，其实等于没给。
+
+因为你真上手的时候，一定会卡在「我到底该填哪些词」。所以我把自己平时最常用的一批词，按类别拍成了几张速查表贴在下面，你写的时候缺哪一类，就来这儿挑，后面括号里是中文意思，纯小白照着抄就行。
+
+不用背，理解每一类是干嘛的，然后每类挑一两个串起来，就是一段合格的 Style。
+
+**① 曲风（这一栏最重要，永远放最前面）**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| Pop | 流行 |
+| Mandopop | 华语流行 |
+| Cantopop | 粤语流行 |
+| City Pop | 都市流行，日系复古那味儿 |
+| Ballad | 抒情慢歌 |
+| R&B | 节奏布鲁斯 |
+| Soul | 灵魂乐 |
+| Hip Hop | 嘻哈 |
+| Rap | 说唱 |
+| Trap | 现代嘻哈，鼓点密 |
+| Rock | 摇滚 |
+| Pop Rock | 流行摇滚 |
+| Folk | 民谣 |
+| Indie | 独立音乐 |
+| Country | 乡村 |
+| EDM | 电子舞曲 |
+| House | 浩室，四四拍蹦迪 |
+| Synthwave | 合成器浪潮，80 年代电子 |
+| Lo-fi | 低保真，慵懒学习风 |
+| Jazz | 爵士 |
+| Funk | 放克，超有律动 |
+| Bossa Nova | 巴萨诺瓦，巴西慵懒 |
+| Disco | 迪斯科 |
+| K-pop | 韩流 |
+| Cinematic | 电影配乐感 |
+| Ambient | 氛围音乐，几乎无人声 |
+| Acoustic | 不插电 |
+
+**② 年代（加上它，曲风准确度肉眼可见地涨）**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| 80s | 八十年代复古 |
+| 90s | 九十年代 |
+| 2000s | 千禧年代 |
+| 2010s | 一零年代 |
+
+**③ 情感氛围**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| Melancholic | 忧郁 |
+| Nostalgic | 怀旧 |
+| Warm | 温暖 |
+| Bittersweet | 苦乐参半 |
+| Upbeat | 欢快 |
+| Energetic | 有活力 |
+| Dreamy | 梦幻 |
+| Ethereal | 空灵 |
+| Chill | 慵懒放松 |
+| Romantic | 浪漫 |
+| Hopeful | 充满希望 |
+| Sad | 悲伤 |
+| Dark | 黑暗 |
+| Intense | 强烈 |
+| Peaceful | 平静 |
+| Anthemic | 燃，有大合唱感 |
+| Groovy | 带感、有律动 |
+
+**④ 乐器（最多挑两三种，别贪多）**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| Piano | 钢琴 |
+| Rhodes electric piano | 电钢琴，温暖复古 |
+| Acoustic guitar | 木吉他 |
+| Electric guitar | 电吉他 |
+| Fingerpicked guitar | 指弹吉他 |
+| Synth | 合成器 |
+| Synth pad | 合成器铺底 |
+| Strings | 弦乐 |
+| Violin | 小提琴 |
+| Cello | 大提琴 |
+| Saxophone | 萨克斯 |
+| Trumpet | 小号 |
+| Bass | 贝斯 |
+| Slap bass | 击弦贝斯，funky |
+| 808 | 808 低音鼓机，嘻哈必备 |
+| Drums | 鼓 |
+| Brushed drums | 鼓刷，爵士和抒情常用 |
+| Flute | 长笛 |
+| Harp | 竖琴 |
+
+**⑤ 人声（记得分三层，谁唱 / 怎么唱 / 加什么音效）**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| female vocal | 女声 |
+| male vocal | 男声 |
+| duet | 男女对唱 |
+| soft | 柔和 |
+| raspy | 沙哑 |
+| breathy | 气声 |
+| husky | 低沉沙哑 |
+| smooth | 顺滑 |
+| powerful | 有力 |
+| bright | 明亮 |
+| falsetto | 假音 |
+| belting | 放声高唱 |
+| whisper | 耳语 |
+| spoken word | 念白，说不唱 |
+| rap delivery | 说唱式 |
+| intimate | 亲密贴耳 |
+| emotional | 充满情感 |
+| layered harmonies | 多层和声 |
+| choir | 合唱团 |
+| ad-libs | 即兴花腔 |
+| autotune | 电音修音 |
+
+**⑥ 制作与音色**
+
+| 英文标签 | 中文意思 |
+| --- | --- |
+| lo-fi | 低保真，粗糙复古 |
+| warm analog | 温暖的模拟感 |
+| polished | 精致打磨 |
+| clean mix | 干净的混音 |
+| vinyl crackle | 黑胶噪点声 |
+| reverb-drenched | 大量混响 |
+| dry close-mic | 贴麦干声 |
+| cinematic production | 电影级制作 |
+| stripped | 极简稀疏 |
+| full band | 全编制乐队 |
+| ASMR | 极近距离人声 |
+
+**⑦ 速度 BPM（不知道填多少，照这个范围抄）**
+
+| 风格 | 大概 BPM |
+| --- | --- |
+| 抒情慢歌 Ballad | 60-80 |
+| Lo-fi | 65-85 |
+| R&B | 60-90 |
+| City Pop | 85-110 |
+| Hip Hop | 80-100 |
+| 流行 Pop | 100-130 |
+| 摇滚 Rock | 110-140 |
+| 迪斯科 Disco | 110-130 |
+| House / EDM | 120-130 |
+
+表是死的，搭配是活的。 你不用全用上，每一类挑一两个最对味的，按前面那个公式的顺序串起来，一段 Style 就成了。
+
 好，公式讲完，我们当场就给《晚归》写一段 Style 出来。
 
 我想要的感觉是，深夜，城市，一个人，暖暖的又有点孤独，那种八十年代 city pop 的复古质感，女声要软、要贴耳朵。

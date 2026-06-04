@@ -1,4 +1,4 @@
-# 我把 Suno 的标签写法掰开揉碎讲给你听，照着抄就能做出一首深情情歌
+# 我把 Suno 的标签写法掰开揉碎讲给你听，照着抄就能做出一首古风叙事歌
 
 ![封面](images/cover.png)
 
@@ -8,7 +8,7 @@
 
 我特别理解这种感觉。
 
-因为我一开始也这样。那会儿我以为 Suno 是个许愿池，我在框里写「一首好听的伤感情歌」，它就该给我吐一首邓紫棋出来。结果当然是，给我整不会了。。。
+因为我一开始也这样。那会儿我以为 Suno 是个许愿池，我在框里写「一首好听的古风歌」，它就该给我吐一首林俊杰的《醉赤壁》出来。结果当然是，给我整不会了。。。
 
 后来我才搞明白，不是 Suno 不行，是我没跟它好好说话。
 
@@ -16,11 +16,9 @@
 
 而且这次我不想干讲，我想带你真的做出一首歌来。
 
-你应该都听过邓紫棋的《唯一》吧，钢琴一进来，主歌还轻轻柔柔的，到副歌一下子就炸开飙上去那种深情情歌。我们这篇，就一起做一首那个味道的歌，但是是我们自己的，我给它起了个名字，叫《只有你》。
+我们要做的，是一首古风叙事歌。讲一个江南女子，守着一城烟雨，等一个披甲北上、再没回来的人。雨声、寺钟、古筝、二胡，到最后是四个字，意难平。我给它起了个名字，就叫《意难平》。
 
-注意啊，我们不是去复刻《唯一》，那玩意有版权，Suno 也复刻不像。我们是把《唯一》那种味道拆开，看它到底是怎么构成的，然后用这套方法，做一首属于我们自己的同款深情情歌。
-
-你不用记任何东西，跟着往下读就行。读到最后，我会把我们一路攒出来的那段提示词，完完整整地贴给你，你直接复制，丢进 Suno，就能听到这首《只有你》到底长什么样。
+你不用记任何东西，跟着往下读就行。读到最后，我会把我们一路攒出来的那段提示词，完完整整地贴给你，你直接复制，丢进 Suno，就能听到这首《意难平》到底长什么样。
 
 那我们开始。
 
@@ -38,11 +36,11 @@
 
 它俩管的事完全不一样，记住这句话你就赢了一半，风格框管「这首歌长什么样」，歌词框管「这首歌怎么唱、怎么排」。
 
-打个我自己常用的比方。你去理发，Style 框是你跟Tony老师说「我要一个温柔的、偏深情的、钢琴感的气质」，这是整体感觉。Lyrics 框是你拿出照片说「这一段轻轻唱，那一句给我放开了吼，这儿插一段说唱」，这是具体到每一处的执行。
+打个我自己常用的比方。你去定做一身衣裳，Style 框是你跟师傅说「我要一身水墨色的、素净的、带点烟雨气的古装」，这是整体气质。Lyrics 框是你拿出图样说「这儿绣枝杏花，这段留白，那一处用真丝」，这是具体到每一处的执行。
 
-气质和执行，是两回事。你要是把「这句放开吼」写进了气质描述里，Tony老师就懵了。同理，你把段落结构写进了 Style 框，Suno 也懵。
+气质和执行，是两回事。你要是把「这儿绣杏花」写进了气质描述里，师傅就懵了。同理，你把段落结构写进了 Style 框，Suno 也懵。
 
-所以这篇文章，其实就是带你分别把这两个框填明白。Style 框我们讲一块，歌词框我们讲三块，加起来五个维度，每讲一个，就往我们《只有你》的成品里塞一块。塞完之后，再单独聊聊框外面那个最影响第一耳朵的东西，人声怎么调。
+所以这篇文章，其实就是带你分别把这两个框填明白。Style 框我们讲一块，歌词框我们讲三块，加起来五个维度，每讲一个，就往我们《意难平》的成品里塞一块。塞完之后，再单独聊聊框外面那个最影响第一耳朵的东西，人声怎么调。
 
 走着。
 
@@ -58,7 +56,7 @@
 
 这就带来两个特别实用的小知识。
 
-第一，重要的词放前面。 Suno 对前面那二三十个字最敏感，所以最核心的东西，曲风、速度，要顶到最前头。后面再补细节。
+第一，重要的词放前面。 Suno 对前面那二三十个字最敏感，所以最核心的东西，曲风、主乐器，要顶到最前头。后面再补细节。
 
 第二，词不是越多越好。 最舒服的数量是八到十五个词。少于五个，AI 觉得你没说清，它就自己脑补；多过二十个，词跟词开始打架，结果反而稀。
 
@@ -70,9 +68,9 @@
 
 我挨个说一下，特别是有几个小白最容易忽略的点。
 
-曲风后面一定要加年代。 这是我踩了好久坑才发现的玄学，但它真的有用。你写 `Synthwave`，不如写 `1980s Synthwave`。你写 `Ballad`，不如写 `2010s Mandopop Ballad`。加上年代，AI 一下子就知道你要的是哪个时代那个味儿，准确率肉眼可见地往上涨。
+曲风要写准。 古风这种，光写 `Chinese` 不够，写 `Mandarin folk ballad`（华语民谣抒情）加一个 `modal Chinese melody`（中国五声调式），AI 一下就知道你要的是那个韵味，而不是个穿汉服的流行歌。
 
-人声那块，要说三层。 这是从「能听」到「好听」的分水岭。光写 `female vocal`（女声），那是新手。真正的写法是说三层，她是谁、她怎么唱、加什么音效。比如 `powerful female vocal`（有力的女声）是第一层，`gentle breathy verses and soaring belted chorus`（主歌气声、副歌放声高唱）是第二层，`clean studio production`（干净的录音棚质感）是第三层。三层叠起来，那个人声才立得住。
+人声那块，要说三层。 这是从「能听」到「好听」的分水岭。光写 `female vocal`（女声），那是新手。真正的写法是说三层，她是谁、她怎么唱、加什么音效。比如 `airy female vocal`（空灵的女声）是第一层，`breathy humming and restrained delivery`（气声哼唱、克制地唱）是第二层，`wet room reverb`（潮湿的房间混响）是第三层。三层叠起来，那个人声才立得住。
 
 但光给你一个公式，其实等于没给。
 
@@ -84,38 +82,30 @@
 
 | 英文标签 | 中文意思 |
 | --- | --- |
+| Mandarin folk ballad | 华语古风民谣 |
+| Guofeng | 古风 |
+| Chinese folk | 中国民乐风 |
+| modal Chinese melody | 中国五声调式 |
 | Pop | 流行 |
 | Mandopop | 华语流行 |
-| Cantopop | 粤语流行 |
 | Ballad | 抒情慢歌 |
-| Pop Ballad | 流行抒情 |
 | R&B | 节奏布鲁斯 |
-| Soul | 灵魂乐 |
 | City Pop | 都市流行，日系复古 |
-| Hip Hop | 嘻哈 |
-| Rap | 说唱 |
-| Trap | 现代嘻哈，鼓点密 |
 | Rock | 摇滚 |
-| Pop Rock | 流行摇滚 |
 | Folk | 民谣 |
 | Indie | 独立音乐 |
-| Country | 乡村 |
 | EDM | 电子舞曲 |
-| House | 浩室，四四拍蹦迪 |
-| Synthwave | 合成器浪潮，80 年代电子 |
-| Lo-fi | 低保真，慵懒学习风 |
+| Lo-fi | 低保真，慵懒风 |
 | Jazz | 爵士 |
-| Funk | 放克，超有律动 |
-| Bossa Nova | 巴萨诺瓦，巴西慵懒 |
-| Disco | 迪斯科 |
-| K-pop | 韩流 |
 | Cinematic | 电影配乐感 |
+| Ambient | 氛围音乐 |
 | Acoustic | 不插电 |
 
 **② 年代（加上它，曲风准确度肉眼可见地涨）**
 
 | 英文标签 | 中文意思 |
 | --- | --- |
+| ancient Chinese | 古代中国意境 |
 | 80s | 八十年代复古 |
 | 90s | 九十年代 |
 | 2000s | 千禧年代 |
@@ -125,47 +115,38 @@
 
 | 英文标签 | 中文意思 |
 | --- | --- |
-| Emotional | 充满情感 |
-| Heartfelt | 真挚动情 |
-| Melancholic | 忧郁 |
-| Nostalgic | 怀旧 |
-| Warm | 温暖 |
-| Bittersweet | 苦乐参半 |
-| Upbeat | 欢快 |
-| Energetic | 有活力 |
-| Dreamy | 梦幻 |
+| melancholic | 忧郁 |
+| sorrowful | 悲怆 |
+| restrained | 克制 |
+| nostalgic | 怀旧 |
+| bittersweet | 苦乐参半 |
+| longing | 思念 |
+| desolate | 苍凉 |
+| intimate | 亲密 |
+| warm | 温暖 |
+| dreamy | 梦幻 |
+| epic | 史诗恢弘 |
 | Ethereal | 空灵（实测常被 Suno 忽略，想稳改用 dreamy） |
-| Chill | 慵懒放松 |
-| Romantic | 浪漫 |
-| Hopeful | 充满希望 |
-| Sad | 悲伤 |
-| Dark | 黑暗 |
-| Anthemic | 燃，有大合唱感 |
-| Groovy | 带感、有律动 |
+| anthemic | 燃，有大合唱感 |
 
 **④ 乐器（最多挑两三种，别贪多）**
 
 | 英文标签 | 中文意思 |
 | --- | --- |
-| Grand piano | 三角钢琴 |
-| Rhodes electric piano | 电钢琴，温暖复古 |
-| Acoustic guitar | 木吉他 |
-| Electric guitar | 电吉他 |
-| Fingerpicked guitar | 指弹吉他 |
-| Synth | 合成器 |
-| Synth pad | 合成器铺底 |
-| Strings | 弦乐 |
-| Lush strings | 饱满的弦乐 |
-| Violin | 小提琴 |
-| Cello | 大提琴 |
-| Saxophone | 萨克斯 |
-| Bass | 贝斯 |
-| Slap bass | 击弦贝斯，funky |
-| 808 | 808 低音鼓机，嘻哈必备 |
-| Drums | 鼓 |
-| Brushed drums | 鼓刷，爵士和抒情常用 |
-| Flute | 长笛 |
-| Harp | 竖琴 |
+| guzheng | 古筝 |
+| erhu | 二胡 |
+| pipa | 琵琶 |
+| guqin | 古琴 |
+| bamboo flute | 笛 / 箫 |
+| temple bell | 寺钟 |
+| felt piano | 毡音钢琴，柔软 |
+| grand piano | 三角钢琴 |
+| acoustic guitar | 木吉他 |
+| strings | 弦乐 |
+| string drones | 弦乐铺底长音 |
+| brushed percussion | 鼓刷 |
+| synth | 合成器 |
+| 808 | 808 低音鼓机 |
 
 **⑤ 人声（记得分三层，谁唱 / 怎么唱 / 加什么音效）**
 
@@ -174,73 +155,62 @@
 | female vocal | 女声 |
 | male vocal | 男声 |
 | duet | 男女对唱 |
-| soft | 柔和 |
+| airy | 空灵 |
 | breathy | 气声 |
-| raspy | 沙哑 |
-| husky | 低沉沙哑 |
-| smooth | 顺滑 |
+| soft | 柔和 |
+| restrained | 克制 |
 | powerful | 有力 |
 | soaring | 高亢飞扬 |
 | belted | 放声高唱 |
-| falsetto | 假音 |
-| soulful runs | 灵魂乐转音 |
-| whisper | 耳语 |
+| operatic | 戏腔 / 美声 |
+| humming | 哼唱 |
 | spoken word | 念白，说不唱 |
-| rap delivery | 说唱式 |
 | intimate | 亲密贴耳 |
-| emotional | 充满情感 |
 | layered harmonies | 多层和声 |
-| choir | 合唱团 |
 
 **⑥ 制作与音色**
 
 | 英文标签 | 中文意思 |
 | --- | --- |
+| wet room reverb | 潮湿的房间混响 |
+| lo-fi ambience | 低保真氛围 |
 | clean mix | 干净的混音 |
-| studio quality | 录音棚品质 |
-| polished | 精致打磨 |
 | warm analog | 温暖的模拟感 |
-| lo-fi | 低保真，粗糙复古 |
-| vinyl crackle | 黑胶噪点声 |
-| reverb-drenched | 大量混响 |
-| dry close-mic | 贴麦干声 |
+| moderate rubato | 自由速度，不卡死节拍 |
+| call-and-response | 一问一答 |
+| sparse arrangement | 稀疏编曲 |
 | cinematic production | 电影级制作 |
-| stripped | 极简稀疏 |
 | full band | 全编制乐队 |
 
 **⑦ 速度 BPM（不知道填多少，照这个范围抄）**
 
 | 风格 | 大概 BPM |
 | --- | --- |
-| 抒情慢歌 Ballad | 60-80 |
+| 古风 / 抒情慢歌 | 60-80 |
 | Lo-fi | 65-85 |
 | R&B | 60-90 |
 | City Pop | 85-110 |
-| Hip Hop | 80-100 |
 | 流行 Pop | 100-130 |
 | 摇滚 Rock | 110-140 |
-| 迪斯科 Disco | 110-130 |
 | House / EDM | 120-130 |
 
 表是死的，搭配是活的。 你不用全用上，每一类挑一两个最对味的，按前面那个公式的顺序串起来，一段 Style 就成了。对了，这些词是描述，不是开关，Suno 会朝那个方向靠，但响应有强有弱，个别词比如 ethereal 它干脆懒得理你。所以重要的方向，多写一两个近义词去强化，比押宝单个词稳。
 
-好，公式和速查表都给你了，我们当场就照着《唯一》的味道，给《只有你》写一段 Style。
+好，公式和速查表都给你了，我们当场就给《意难平》写一段 Style。
 
-我先在脑子里把《唯一》拆一下，钢琴主导的华语抒情情歌，主歌温柔、副歌爆发飙高音，编曲是钢琴加弦乐，副歌进鼓，女声特别能飙、还带转音，中慢板。
+我想要的感觉是，下着雨的江南，钢琴很轻，远处一声寺钟，古筝是主角、二胡在旁边一句句应和，女声先是空灵地哼着，整体克制、不煽情，像一个普通的雨天，但底下压着很重的东西。
 
 那我就照着公式，从速查表里挑词填。
 
 ```
-Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from tender to powerful, grand piano and lush strings, soft drums entering on chorus, powerful female vocal with soulful runs, gentle breathy verses, soaring belted chorus, one melodic rap section, clean emotional studio production, 72 BPM
+Rain-soaked Mandarin folk ballad with sparse felt piano, distant temple bell, airy humming, guzheng lead and erhu call-and-response. Soft brushed percussion, wet room reverb, delicate string drones, intimate lo-fi ambience, modal Chinese melody, moderate rubato, restrained everyday-tuesday tone.
 ```
 
-你看，曲风加年代（Mandarin pop ballad, 2010s）顶在最前面，然后情感（动情、真挚，从温柔到爆发），然后乐器（钢琴加饱满弦乐，副歌进鼓），然后人声三层（有力、带转音 / 主歌气声副歌放开唱 / 干净的录音棚质感），最后速度（72 拍，标准的抒情中慢板）。
-
-中间我还埋了一句 `one melodic rap section`，意思是这歌里有一段旋律说唱。为啥加这个，待会儿讲到 rap 那块你就懂了。
+你看，曲风（Mandarin folk ballad、modal Chinese melody）和主乐器（毡音钢琴、寺钟、古筝主奏、二胡一问一答）顶在最前面，然后情感（克制、像个平常的周二，不煽情），然后氛围和制作（潮湿房间混响、lo-fi、自由速度）。我没写死 BPM，因为最后写了 `moderate rubato`，让它自由地呼吸，古风歌这样反而更有味道。
 
 这一段，就是我们成品的第一块。先收着。
 
-哦对，你可能会问，能写中文吗。能，但 Suno 对英文的理解明显更准，所以我的习惯是，风格描述用英文，唱中文歌就在最前面挂一个 `Mandarin` 告诉它用中文唱，就像我上面那样。
+哦对，你可能会问，能写中文吗。能，但 Suno 对英文的理解明显更准，所以我的习惯是，风格描述用英文，唱中文歌就让歌词去承担中文，就像我们待会儿要填的那一整篇词。
 
 ---
 
@@ -263,6 +233,7 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 [Verse]        主歌，讲故事的部分，能量低一点
 [Pre-Chorus]   预副歌，副歌前的助跑，情绪往上爬
 [Chorus]       副歌，最抓耳、要循环洗脑的部分
+[Interlude]    间奏，一般是纯乐器
 [Bridge]       桥段，整首歌唱腻了，来段不一样的打破一下
 [Outro]        尾奏，收尾
 [End]          强制结束，怕 AI 唱不完没完没了就加它
@@ -270,43 +241,49 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 记住三个规矩，标签单独占一行，放段落开头，整首歌里同一个标签的写法要前后一致。就这么简单。
 
-这里有个小白百分百会遇到的坑，我提前给你填了。你写了 `[Intro]` 想要个纯音乐前奏，结果 AI 还是上来就开唱。咋办。在 `[Intro]` 后面写细一点，写成 `[Intro: Soft Piano]`，告诉它前奏是啥乐器，它就不瞎唱了。
+这里有个小白百分百会遇到的坑，我提前给你填了。你写了 `[Intro]` 想要个纯音乐前奏，结果 AI 还是上来就开唱。咋办。在 `[Intro]` 后面写细一点，写成 `[Intro: piano and light rain sound, distant temple bell]`，告诉它前奏里有什么，它就不瞎唱了。
 
-说到前奏，顺便教你一个让歌瞬间高级的小招，前奏哼唱。
+说到前奏，顺便教你两个让歌一下子高级起来的小招。
 
-你有没有发现，很多特别抓耳的歌，一开口不是唱词，是一段「嗯～」或者「喔～」的哼唱，特别勾人。这个在 Suno 里太好实现了，你把前奏标签写成 `[Intro: Soft Piano, Gentle Humming]`，然后下面跟一行 `(humming) 嗯～ 喔～`，AI 就会在钢琴上哼一段旋律开场。
+第一个，前奏哼唱。 你有没有发现，很多特别勾人的歌，一开口不是唱词，是一段「嗯～」的哼唱。在 Suno 里太好实现了，前奏后面跟一行 `[Humming] 嗯～嗯～ 嗯嗯嗯～`，AI 就会哼一段旋律开场。元音用「嗯～」「啊～」加波浪号最稳，波浪号是告诉它把这个音拖长。
 
-这里有个小细节，哼唱的元音别写「啊啊啊啊啊」，AI 处理不好，写「嗯～」「喔～」这种单个元音加个波浪号最稳，波浪号是告诉它把这个音拖长。
+第二个，用小节数和具名乐器控制段落。 这是进阶玩法。你可以在标签里直接写 `[Intro: 8 bars, ...]` 告诉它前奏大概多长，也可以写 `[Interlude: guzheng solo with erhu answering, 12 bars]`，指定这段间奏是古筝独奏、二胡来一问一答地应和。我得诚实说一句，Suno 对小节数不一定卡得很准，这玩意儿是给它一个强烈的引导，不是精确的命令，但写了比不写强很多。
 
-行，继续攒我们的《只有你》。我先不写词，先把骨架搭出来，你感受一下一首完整的歌长什么样。注意我开头用了哼唱前奏，中间还留了一段说唱的位置。
+行，继续攒我们的《意难平》。我先不写词，先把骨架搭出来，你感受一下这首歌的架子。
 
 ```
-[Intro: Soft Piano, Gentle Humming]
+[Intro: 8 bars, piano and light rain sound, distant temple bell]
+[Humming]
 
 [Verse 1]
+
+[Verse 2]
 
 [Pre-Chorus]
 
 [Chorus]
 
-[Post-Chorus]
+[Interlude: guzheng solo with erhu answering, 12 bars]
 
-[Verse 2]
+[Verse 3]
 
-[Rap Verse]
+[Verse 4]
 
-[Piano Solo]
+[Pre-Chorus - variation]
 
-[Bridge]
+[Chorus - higher energy]
 
-[Final Chorus]
+[Bridge - spoken style, slow]
+
+[Chorus - key change up, full emotion]
 
 [Outro]
+[Bamboo flute fade out, 8 bars]
 
 [End]
 ```
 
-看见没，哼唱前奏开场，主歌进副歌，副歌后挂一句洗脑的 Post-Chorus，第二段主歌之后插一段说唱换换口味，再留一段钢琴独奏喘口气，然后用桥段沉下来，最后一遍副歌升华，尾奏收掉，强制结束。这就是一首有起伏、有层次的歌的骨架，现在它还是空的，但架子立住了。
+看见没，雨声寺钟里哼唱开场，四段主歌把故事讲完整，中间挂一段古筝二胡的间奏喘口气，副歌反复出现、但一次比一次猛，最后桥段念白、再升调收束，尾奏让一支竹笛慢慢消失，强制结束。这就是一首有起伏、能讲完一整个故事的骨架，现在它还是空的，但架子立住了。
 
 这是成品的第二块。
 
@@ -320,7 +297,7 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 为啥平。因为从头到尾一个力度唱下来，没有强弱、没有戏。这时候就要请出我最喜欢的一类标签，行内标签。
 
-如果说结构标签是搭骨架，那行内标签就是你当导演，在某一句词的旁边小声说，这句你给我气声唱，那句你给我吼出来，这儿停一下，那儿炸开。
+如果说结构标签是搭骨架，那行内标签就是你当导演，在某一段、某一句旁边小声说，这儿哼着来，那儿念白，这一遍副歌给我比上一遍更猛。
 
 这块东西有点多，但你别慌，我直接给你拍一张速查表，下次写歌缺哪个回来抄就行。
 
@@ -336,23 +313,22 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 | (falsetto) | 假音 |
 | (vibrato) | 颤音 |
 | (spoken) | 念白，说话不唱 |
-| (rap) | 说唱 |
 | (humming) | 哼唱 |
 | (emotional) | 充满情感 |
 | (harmonized) | 这句加和声 |
 | (ad-lib) | 即兴花腔 |
 
-**② 段落演唱类型（加在 `[Verse]` `[Chorus]` 这类段落标签后面）**
+**② 段落演唱类型与变奏（加在 `[Verse]` `[Chorus]` 后面，用冒号或连字符接描述）**
 
 | 标签 | 中文意思 |
 | --- | --- |
-| [Rap Verse] | 说唱段 |
+| [Humming] | 整段哼唱 |
+| [Opera ad-lib] | 戏腔即兴 |
 | [Whispered Verse] | 气声主歌 |
-| [Spoken Intro] | 念白开场 |
-| [Sad Verse] | 悲伤主歌 |
-| [Anthemic Chorus] | 燃、有大合唱感的副歌 |
-| [Explosive Chorus] | 爆发副歌 |
-| [Intimate Bridge] | 亲密桥段 |
+| [Bridge - spoken style, slow] | 念白桥段、放慢 |
+| [Chorus - higher energy] | 这遍副歌更燃 |
+| [Chorus - key change up, full emotion] | 副歌升调、情绪拉满 |
+| [Pre-Chorus - variation] | 预副歌变奏 |
 
 **③ 能量与动态（单独占一行，插在歌词中间）**
 
@@ -379,75 +355,51 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 用这些标签之前，有句大实话我得先说。
 
-这些方括号标签，是信号，不是命令。 你写了，是在告诉 AI 你想要啥，但它不一定百分百照做，而且不同标签的听话程度差很远。像 whisper、belting、rap、humming、spoken word 这几个，基本写了就中，是最稳的一档。像 build、drop、key change、还有那几个指定背景和声唱词的，属于看运气的一档，最好在 Style 框和歌词里都提一嘴，命中率更高。还有些参数类的纯属安慰剂，比如有人写 [Reverb: 30%] 这种数值，Suno 根本不认，白写。
+这些方括号标签，是信号，不是命令。 你写了，是在告诉 AI 你想要啥，但它不一定百分百照做，而且不同标签的听话程度差很远。像 humming、spoken、belting、whisper 这几个，基本写了就中，是最稳的一档。像副歌变奏、升调、那几个指定背景和声唱词的，属于看运气的一档，最好在 Style 框和歌词里都提一嘴，命中率更高。还有些参数类的纯属安慰剂，比如有人写 [Reverb: 30%] 这种数值，Suno 根本不认，白写。
 
 所以别指望写了标签就铁定生效，多生成几遍、把重要的标签前后呼应着写，才是正经办法。
 
-表给你了，我挑几个最常用的，再多说两句。
+表给你了，我挑这首《意难平》最吃重的两招，再多说两句。
 
-主歌开头用 `(whispered)`，深情情歌的主歌就该是喃喃的、贴着耳朵的。副歌切到 `(belted)` 放开吼，情绪一下顶上去，这一软一炸的对比，就是邓紫棋《唯一》最戳人的地方，我们照搬这个套路。
+第一招，哼唱和戏腔。 这首不靠飙高音炸场，靠的是气口和韵味。开头一段 `[Humming]` 把人带进雨里，结尾来一句 `[Opera ad-lib]` 的戏腔即兴，那股子古典的悲意一下就出来了。
 
-升调，是华语情歌的经典催泪杀招，最后一遍副歌用 `[Key Change Up]` 升半个调，鸡皮疙瘩都起来了。
+第二招，也是这首的命门，副歌的逐次升级。 同样一段副歌，我让它出现三回，但每一回都给它换个标签往上顶。第一回就是普通的 `[Chorus]`，平铺直叙地讲；第二回写成 `[Chorus - higher energy]`，情绪更满；最后一回写成 `[Chorus - key change up, full emotion]`，直接升调、把情绪拉到顶。同一段词，三种温度，听感就是层层递进，这是华语情歌的经典催泪结构。
 
-背景和声，最稳的写法是 `[Harmonies]`，AI 会在主唱后面叠一层和声，副歌饱满度直接拉满。也有人用 `[Lush BGVs: "歌词"]` 这种能指定背景和声唱词的进阶写法，但它来源比较单一，不保证每次都生效，想稳还是用 `[Harmonies]`。
-
-还有个进阶玩法，叠加。 你可以在一个标签里塞好几个指令，用竖线 `|` 隔开，比如 `[Final Chorus: Key Change Up | Harmonies]`，一句话把升调和厚和声两件事说清楚。
-
-好，重点来了，说说那段 rap。
-
-我们这首是深情情歌，为啥要插一段说唱。因为对比。整首都柔，听久了会腻，中间突然来一段带节奏的说唱叙事，情绪就有了新的层次，很多华语情歌都这么干。
-
-怎么让一段变说唱，特别简单，段落标签写成 `[Rap Verse]` 就行，AI 会自动切换成说唱的唱法。
-
-但有个关键，rap 的词跟唱的词，写法不一样。 唱的词可以慢、可以留白；rap 的词要密，一句接一句不能太空，而且特别讲究 flow，最好句句押韵，押得密、押得连，读起来才带感。另外记得回到 Style 框补一句 `one melodic rap section`，提前告诉 AI 这歌里有说唱，它衔接得更自然，我们第一步其实已经埋好了。
-
-来，我们把这些标签全塞进《只有你》的骨架里，你重点看我在哪儿加了什么。
+来，我们把这些标签全标进《意难平》的骨架里，你重点看那三遍副歌是怎么一遍比一遍狠的。
 
 ```
-[Intro: Soft Piano, Gentle Humming]
-(humming) 嗯～ 喔～
+[Intro: 8 bars, piano and light rain sound, distant temple bell]
+[Humming] 嗯～嗯～
 
-[Verse 1: Sparse, Close Mic]
-(whispered)
-(softer)
+[Verse 1]
+（叙事，能量低）
 
-[Pre-Chorus: Building Tension]
-[Build]
+[Chorus]
+（第一遍，平铺）
 
-[Chorus: Anthemic | Stacked Harmonies]
-(belted)
-(ad-libs)
+[Interlude: guzheng solo with erhu answering, 12 bars]
 
-[Post-Chorus]
-(oh-oh-oh)
+[Pre-Chorus - variation]
+（变奏，再往上推）
 
-[Verse 2]
-(falsetto)
+[Chorus - higher energy]
+（第二遍，更燃）
 
-[Rap Verse]
-(rap)
+[Bridge - spoken style, slow]
+（念白，最痛的话说出来）
 
-[Piano Solo]
+[Chorus - key change up, full emotion]
+（第三遍，升调，情绪到顶）
 
-[Bridge: Stripped Back, Piano Only]
-(spoken)
-[Stop]
-(soft)
-[Build]
-
-[Final Chorus: Key Change Up | Choir]
-(belted)
-[Backing Vocals]
-(vibrato)
-
-[Outro: Emotional, Fade Out]
-(humming)
+[Outro]
+[Opera ad-lib]
+[Bamboo flute fade out, 8 bars]
 [End]
 ```
 
-哼唱开场，主歌叠上 Sparse 和 Close Mic 显得贴耳、用气声唱，副歌叠 Anthemic 和 Stacked Harmonies 放开吼、再甩两句 ad-libs，副歌后用 Post-Chorus 挂个洗脑钩子，第二段主歌来句假音，第三段直接切说唱，留一段钢琴独奏，桥段先念白、一个 `[Stop]` 突然顿住、再 `[Build]` 把情绪堆回来，最后一遍副歌升调叠合唱团、加 `(vibrato)` 颤音飙上去，尾奏哼着渐弱消失，再 `[End]` 焊死结尾。
+哼唱开场，主歌平静叙事，副歌第一遍铺垫，间奏喘口气，第二遍副歌加码，桥段把最痛那句念白说出来，最后一遍副歌升调炸开，尾奏一句戏腔、一支竹笛渐渐消失，再 `[End]` 焊死结尾。
 
-一个小提醒，我这骨架是教学示范，故意把标签铺得比较满让你看全。你自己写的时候别每行都加，加多了 AI 反而乱，挑情绪的关键转折点点一下，对比才强。
+一个小提醒，行内标签别每行都加，加多了 AI 反而乱。就在情绪的关键转折点点一下，对比才强。
 
 这是成品的第三块。骨架开始有血有肉了。
 
@@ -459,111 +411,116 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 现在到了最有人味儿的一步，填词。
 
-我知道很多朋友一听写词就头大，觉得自己又不是方文山。但我跟你说，在 AI 作曲这件事上，词写得「能唱」，比写得「漂亮」重要一百倍。
+古风词跟大白话的情歌不太一样，它讲究意象、对仗、用典，但有一条铁律是相通的，词得「能唱」，比写得「漂亮」重要。
 
-啥叫能唱。我给你几条特别接地气的检查标准，你照着来，AI 唱出来就顺。
+我给你几条特别接地气的检查标准，古风也一样适用。
 
-一行别太长。 中文一行控制在十到十五个字以内。你要是写「我站在这个城市最高的天台上看着远方那片逐渐暗淡的天空」，AI 唱起来就得赶拍子，跟绕口令似的。拆开，拆成短句。
+一句别太长。 一行的字数尽量匀着来，太长 AI 唱起来会赶拍子。你看《意难平》里「杏花疏雨 湿透了青石旧巷」，中间用空格断成意群，AI 就知道在哪儿换气。
 
-副歌尽量押韵。 不用每句都押，但副歌的句尾押上韵，唱出来就是顺。AI 对押韵特别敏感。
+句尾押韵、多用开口音。 副歌的韵脚押上，唱出来就顺。「缝入寒衣」「身许旌旗」「无人还」「惊了山川」，韵脚落在开口的音上，方便拖长、方便把情绪送出去。
 
-多用开口音收尾。 副歌结尾那个字，尽量用「爱、来、开」这种嘴张得开的音，方便拖长、方便飙高音。你要是用「日、吃」这种闭口音收尾，唱起来就憋。
+生僻字小心点。 古风词爱用「烛灺」「旌旗」这种字，意境是有了，但 AI 可能念错。能用就用，拿不准的地方自己先念一遍，实在拗口就换一个近义的。这是古风词独有的坑。
 
-学会留白。 不是每行都得塞满字。段落之间空一行，AI 会自动给你加段乐器过渡，特别自然。
+留白。 间奏、尾奏这些地方不塞字，留给古筝和竹笛去说话，反而更有余韵。
 
-还有几个雷，我直接帮你标出来别踩。生僻字多音字少用，AI 会念错。中英文别瞎混，除非你故意的，不然发音怪。叠字别堆，想哼唱就用 `(humming)`。
-
-好，废话不多说，我把《只有你》的词填进去。这一版我故意把前面教的技巧尽量都用上了，当个活教材使。你重点感受几个地方，主歌每句都短、留了白，副歌押前鼻音（灯 / 人 / 心），收在开口音上方便飙高音，那段 rap 押得又密又连（注定 / 风景 / 笃定 / 净 / 曾经 / 呼吸 / 剧情 / 有你），读起来就带 flow。
+好，废话不多说，把《意难平》的整篇词填进去。你顺着读，会发现它就是个完整的故事，从送别、守望，到听闻噩耗、意难平，每一段的情绪都往下沉一层。
 
 ```
-[Intro: Soft Piano, Gentle Humming]
-(humming) 嗯～ 喔～
+[Intro: 8 bars, piano and light rain sound, distant temple bell]
+[Humming] 嗯～嗯～ 嗯嗯嗯～ 嗯～嗯～
+[Humming] 啊～～ 啊～啊～啊～～ 嗯～～
 
-[Verse 1: Sparse, Close Mic]
-(whispered) 凌晨的城市 还亮着零星
-我习惯了 一个人的安静
-(softer) 直到你发来 一句晚安
-心跳才 有了回应～
-
-[Pre-Chorus: Building Tension]
-原来孤独
-是没遇见你之前 临时的形状
-[Build]
-原来想念 会让一个大人 突然就慌
-
-[Chorus: Anthemic | Stacked Harmonies]
-(belted) 你是我 兵荒马乱里的灯
-是我走多远 也不会迷的人
-(ad-libs) 全世界 吵到失了声
-只有你说话 我才安了心
-原来爱 不必惊天动地
-是陪你 把平凡 过成唯一
-
-[Post-Chorus]
-(oh-oh-oh) 过成唯一～
+[Verse 1]
+杏花疏雨 湿透了青石旧巷
+乌篷独立 载不动半生惆怅
+那夜君行 卸下了儒衫罗裳
+挽强弓 披铁甲 别我向孤城北望
 
 [Verse 2]
-你不是 我幻想里的剧情
-你比那 更普通也更动人
-(falsetto) 你会笑我 笨拙的认真
-还是 把我放进余生
+折柳桥头 犹记你掌心余温
+战鼓催程 震碎了寒江月轮
+九死一生 君言是许国之本
+可怜我 闺中人 算不尽此去晨昏
 
-[Rap Verse]
-(rap) 说实话 我从不信什么命中注定
-觉得爱 都是临时的风景
-可你一来 就推翻我所有的笃定
-把我的防备 拆得干干净净
-我数过 我们之间多少个曾经
-从陌生 到把名字 刻进呼吸
-不需要 什么惊艳的剧情
-我只要 平凡的明天 里都有你
+[Pre-Chorus]
+听 窗外是 淅淅沥沥的雨声
+聚 散不由人 算不透的命
+却听闻 塞外已是 漫天风雪甲衣冷
 
-[Piano Solo]
+[Chorus]
+我守江南 剪一缕青丝缝入寒衣
+君在边关 踏万里黄沙身许旌旗
+烽火连天 听传闻百战十无人还
+血染甲衣 这一场泼墨惊了山川
+最恨这 意难平 连理枝折断在宿命
 
-[Bridge: Stripped Back, Piano Only]
-(spoken) 如果有天 我们都老得很慢
-[Stop]
-(soft) 我还想牵着你
-[Build]
-把这首歌 唱完
+[Interlude: guzheng solo with erhu answering, 12 bars]
 
-[Final Chorus: Key Change Up | Choir]
-(belted) 你是我 兵荒马乱里的灯
-[Backing Vocals]
-是我走多远 也不会迷的人
-全世界 吵到失了声
-(vibrato) 只有你说话 我才安了心～
+[Verse 3]
+春水东流 吹散了桃溪渡口
+空帏烛灺 燃尽了欲说还羞
+尺素难传 唯有那北风如吼
+将相功 枯骨冢 算不明白头白首
 
-[Outro: Emotional, Fade Out]
-(humming) 把平凡 过成唯一～
+[Verse 4]
+夜阑灯灺 似听得铁骑奔腾
+大漠孤烟 吞没你如玉面容
+若得来生 愿君做寻常农家
+洗铅华 隐烟雨 闲看那满路桑麻
+
+[Pre-Chorus - variation]
+看 阶前是 离离落落的青苔
+念 故人归来 却撞入空白
+仿佛听 狼烟深处 有你长枪破长空
+这一场劫数 啊 终是将你 我掩埋
+
+[Chorus - higher energy]
+我守江南 燃三千枯香跪求神明
+君在沙场 洒一腔热血莫唤孤魂
+莫入我梦 怕见你形容枯槁归来
+泪眼婆娑 偏打湿当年出嫁红腮
+最恨这 意难平 盛世安宁换了生离
+你护了 这方烟雨 却唯独 把我抛弃
+
+[Bridge - spoken style, slow]
+凭何 英雄名 换来一座 无字碑
+凭何 功臣泪 只能流入 孤坟堆
+我不要 这万里江山 如画的壮美
+我只要 你活着 归来
+我只要 你活着 归来
+
+[Chorus - key change up, full emotion]
+苔痕染绿 阶前仍是旧时雨
+沙场尘飞 谁人识得君名
+
+[Outro]
+[Humming] 嗯～嗯～ 嗯嗯嗯～ 嗯～嗯～
+[Opera ad-lib] 啊～～ 咿～呀～～ 啊～～～
+[Bamboo flute fade out, 8 bars]
 [End]
 ```
 
-念一遍，是不是比之前那种口水词耐听一点。这就是可唱性。
-
-我得说句实在话，这一版我是当教材写的，技巧塞得特别满，几乎每段都挂着标签。你自己真做歌的时候不用这样，挑几个最关键的用就行，塞太满 AI 反而容易乱。我把它塞满，纯粹是想让你一眼看清每个标签长在歌里什么位置。
+念一遍，是不是一整个故事就立起来了。这就是叙事加可唱性。
 
 这是成品的第四块，也是最厚的一块。
 
 ---
 
-## 5 把不想要的东西踢出去
+## 5 最后一步，把不想要的东西踢出去
 
 ![Exclude](images/dim5-exclude.png)
 
 到这儿，其实主体已经齐了。但还差临门一脚，这一脚专治 AI 自作主张。
 
-你有没有遇到过，明明想要一首安静的钢琴情歌，AI 非给你加了段炸裂的电吉他，或者鼓点重得像蹦迪。。。这时候你光说「我要安静」没用，你得直接告诉它「不要什么」。
+你有没有遇到过，明明想要一首素净的古风，AI 非给你配了段电子鼓，或者来了把失真电吉他。。。这时候你光说「我要干净」没用，你得直接告诉它「不要什么」。
 
 两个办法。
 
-简单的，在 Style 框最后面，直接用 `no` 加上你不想要的东西。我们《只有你》是首干净的钢琴情歌，我就在风格描述最后补一句 `no heavy electronic beats, no distortion`（不要重电子节拍，不要失真）。
+简单的，在 Style 框最后面，直接用 `no` 加上你不想要的东西。比如这首《意难平》要的是雨声古筝那股素净，我就可以在风格描述最后补一句 `no electronic beats, no distortion, no modern pop drums`（不要电子节拍、不要失真、不要现代流行鼓）。
 
-讲究的，Suno 还有个单独的 Exclude Styles 框（排除框），你把不想要的元素写进去，效果更干净。做纯抒情、做纯伴奏的时候，这个框是神器。
+讲究的，Suno 还有个单独的 Exclude Styles 框（排除框），你把不想要的元素写进去，效果更干净。做纯古风、做纯伴奏的时候，这个框是神器。
 
-提示词那五块，到这儿就齐了。
-
-但你先别急着拼，还有最后一件事，它不写进那两个框，却最影响你听到的第一耳朵，就是人声。
+行了，憋了一路，是时候把五块拼起来了。不过先别急，还有最后一件事，它不写进那两个框，却最影响你听到的第一耳朵，就是人声。
 
 ---
 
@@ -573,13 +530,13 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 前面教的，全是用文字去描述人声，写进 Style 框里。这是一条路，但 Suno 其实还给了你两个更直接的硬控制，就在界面上，纯小白特别容易漏掉。
 
-第一个，人声性别。 你光在 Style 里写 female vocal，有时候 AI 还是会给你飘成男声，或者一首歌里忽男忽女。最稳的办法是，在生成界面的高级选项（More Options）里，直接把 Vocal Gender 点成女声。文字描述加界面点选，双保险，人声性别才焊得死。我们这首《只有你》要女声，记得来这儿点一下。
+第一个，人声性别。 这首《意难平》是闺中人的口吻，必须是女声。你光在 Style 里写 female vocal，有时候 AI 还是会给你飘成男声。最稳的办法是，在生成界面的高级选项（More Options）里，直接把 Vocal Gender 点成女声。文字描述加界面点选，双保险，人声性别才焊得死。
 
-第二个，把喜欢的人声存下来，叫 Persona。 你哪天生成出一个特别对味的嗓子，舍不得，可以用 Create Voice 把它存成一个 Persona，下次写新歌直接调用，音色就锁定了。想做一整张风格统一的专辑，或者打造一个固定的「AI 歌手」，就靠它。这个是 Pro 会员的功能。
+第二个，把喜欢的人声存下来，叫 Persona。 你哪天生成出一个特别对味的嗓子，舍不得，可以用 Create Voice 把它存成一个 Persona，下次写新歌直接调用，音色就锁定了。想做一整套风格统一的古风专辑，就靠它。这个是 Pro 会员的功能。
 
 说完界面上的硬控制，回到文字描述这块。
 
-其实调人声就三个入口。一个是界面上点性别，刚说了。一个是在歌词里用唱法标签指挥某一句怎么唱，维度3 那张唱法表管的。还有一个，就是在 Style 框里把人声的音色质感写清楚。
+其实调人声就三个入口。一个是界面上点性别，刚说了。一个是在歌词里用唱法标签指挥某一段怎么唱，比如这首用 `[Humming]` 和 `[Opera ad-lib]`。还有一个，就是在 Style 框里把人声的音色质感写清楚。
 
 而这第三个入口，词到底怎么挑，我给你拍了张最全的人声速查表，从音域、音色、技巧、情绪、处理到特殊类型，一次看全。专门琢磨人声的时候，翻这一张就够。
 
@@ -601,34 +558,32 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 | 标签 | 中文意思 |
 | --- | --- |
+| airy | 空灵 |
+| breathy | 气声 |
 | raspy | 沙哑 |
 | husky | 低沉沙哑 |
-| breathy | 气声 |
 | smooth | 顺滑 |
 | warm | 温暖 |
 | bright | 明亮 |
 | deep | 浑厚低沉 |
-| nasal | 鼻音 |
 | sweet | 甜美 |
 | velvety | 丝绒般顺滑 |
-| gritty | 粗粝 |
 | powerful | 有力 |
 
 **③ 唱法与技巧（怎么发声）**
 
 | 标签 | 中文意思 |
 | --- | --- |
+| operatic | 戏腔 / 美声 |
 | belting | 放声高唱 |
 | falsetto | 假音 |
-| head voice / chest voice | 头声 / 胸声（真实声乐术语，但 Suno 基本不响应，慎用） |
 | vibrato | 颤音 |
 | vocal runs / riffs | 转音、花腔 |
 | melisma | 一字多音 |
 | whisper | 耳语 |
 | spoken word | 念白 |
-| rap delivery | 说唱 |
-| vocal fry | 气泡音 |
-| growl | 喉音嘶吼 |
+| humming | 哼唱 |
+| head voice / chest voice | 头声 / 胸声（真实声乐术语，但 Suno 基本不响应，慎用） |
 
 **④ 情绪与风格（带什么感情唱）**
 
@@ -637,12 +592,11 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 | emotional | 充满情感 |
 | intimate | 亲密贴耳 |
 | tender | 温柔 |
-| passionate | 热烈 |
-| soulful | 灵魂乐式深情 |
+| sorrowful | 悲怆 |
 | longing | 充满思念 |
-| aggressive | 强烈、带攻击性 |
-| playful | 俏皮 |
-| confident | 自信 |
+| restrained | 克制 |
+| passionate | 热烈 |
+| desolate | 苍凉 |
 
 **⑤ 层次与处理（声音的厚度与空间）**
 
@@ -654,24 +608,22 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 | close-mic | 贴麦，亲密 |
 | dry vocal | 干声，无混响 |
 | reverb-drenched | 大量混响 |
-| autotune | 电音修音 |
+| wet room reverb | 潮湿的房间混响 |
 | lo-fi vocal | 低保真人声 |
-| ASMR vocal | 极近距离气声 |
 
 **⑥ 特殊人声类型（想要特定风格）**
 
 | 标签 | 中文意思 |
 | --- | --- |
-| gospel vocals | 福音 |
-| opera vocals | 美声歌剧 |
-| jazz scat | 爵士拟声 |
+| operatic vocals | 戏腔 / 美声 |
 | chant | 吟诵 |
+| gospel vocals | 福音 |
 | ad-libs | 即兴花腔 |
-| vocoder / talkbox | 电音说话器 |
+| jazz scat | 爵士拟声 |
 
 挑词的逻辑跟之前一样，不用全用，每一类拎一两个最对味的串起来。
 
-回到我们的《只有你》，我想要的就是邓紫棋《唯一》那种，能从气声柔到飙高音的女声。所以我在 Style 里写的是 powerful female vocal with soulful runs（有力、带转音的女声），gentle breathy verses（主歌气声），soaring belted chorus（副歌放声高唱）。你看，这几个词全是从上面这张表里挑出来的，音域定女声，技巧给 belting 和 runs，再拿 breathy 和 soaring 去控制每一段的强弱。
+回到我们的《意难平》，我想要的就是那种空灵、克制、带一点戏腔的女声。所以人声这块我会写 `airy female vocal`（空灵女声）、`breathy humming`（气声哼唱）、`restrained delivery`（克制地唱），收尾再用 `operatic ad-lib`（戏腔即兴）点一下。你看，这几个词全是从上面这张表里挑出来的。
 
 人声这块也得提前打个预防针，性别和音色偶尔还是会飘，尤其歌一长。除了点 Vocal Gender 双保险，最实用的就是多生成几遍挑一版，或者把满意那版存成 Persona 焊死。
 
@@ -679,110 +631,117 @@ Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from
 
 ---
 
-## 把五块拼起来，这就是《只有你》的完整提示词
+## 把六块拼起来，这就是《意难平》的完整提示词
 
 下面这两段，就是我们从零一路攒出来的成品。你现在打开 Suno，切到 Custom 自定义模式，把第一段贴进 Style 框，第二段贴进 Lyrics 歌词框。对了，按维度6 说的，记得顺手去高级选项把 Vocal Gender 点成女声，再点 Create，就完事了。
 
 先是 Style 框，贴这个。
 
 ```
-Mandarin pop ballad, 2010s, piano-driven, emotional and heartfelt, building from tender to powerful, grand piano and lush strings, soft drums entering on chorus, powerful female vocal with soulful runs, gentle breathy verses, soaring belted chorus, one melodic rap section, clean emotional studio production, 72 BPM, no heavy electronic beats, no distortion
+Rain-soaked Mandarin folk ballad with sparse felt piano, distant temple bell, airy humming, guzheng lead and erhu call-and-response. Soft brushed percussion, wet room reverb, delicate string drones, intimate lo-fi ambience, modal Chinese melody, moderate rubato, restrained everyday-tuesday tone.
 ```
 
 然后是 Lyrics 歌词框，贴这个。
 
 ```
-[Intro: Soft Piano, Gentle Humming]
-(humming) 嗯～ 喔～
+[Intro: 8 bars, piano and light rain sound, distant temple bell]
+[Humming] 嗯～嗯～ 嗯嗯嗯～ 嗯～嗯～
+[Humming] 啊～～ 啊～啊～啊～～ 嗯～～
 
-[Verse 1: Sparse, Close Mic]
-(whispered) 凌晨的城市 还亮着零星
-我习惯了 一个人的安静
-(softer) 直到你发来 一句晚安
-心跳才 有了回应～
-
-[Pre-Chorus: Building Tension]
-原来孤独
-是没遇见你之前 临时的形状
-[Build]
-原来想念 会让一个大人 突然就慌
-
-[Chorus: Anthemic | Stacked Harmonies]
-(belted) 你是我 兵荒马乱里的灯
-是我走多远 也不会迷的人
-(ad-libs) 全世界 吵到失了声
-只有你说话 我才安了心
-原来爱 不必惊天动地
-是陪你 把平凡 过成唯一
-
-[Post-Chorus]
-(oh-oh-oh) 过成唯一～
+[Verse 1]
+杏花疏雨 湿透了青石旧巷
+乌篷独立 载不动半生惆怅
+那夜君行 卸下了儒衫罗裳
+挽强弓 披铁甲 别我向孤城北望
 
 [Verse 2]
-你不是 我幻想里的剧情
-你比那 更普通也更动人
-(falsetto) 你会笑我 笨拙的认真
-还是 把我放进余生
+折柳桥头 犹记你掌心余温
+战鼓催程 震碎了寒江月轮
+九死一生 君言是许国之本
+可怜我 闺中人 算不尽此去晨昏
 
-[Rap Verse]
-(rap) 说实话 我从不信什么命中注定
-觉得爱 都是临时的风景
-可你一来 就推翻我所有的笃定
-把我的防备 拆得干干净净
-我数过 我们之间多少个曾经
-从陌生 到把名字 刻进呼吸
-不需要 什么惊艳的剧情
-我只要 平凡的明天 里都有你
+[Pre-Chorus]
+听 窗外是 淅淅沥沥的雨声
+聚 散不由人 算不透的命
+却听闻 塞外已是 漫天风雪甲衣冷
 
-[Piano Solo]
+[Chorus]
+我守江南 剪一缕青丝缝入寒衣
+君在边关 踏万里黄沙身许旌旗
+烽火连天 听传闻百战十无人还
+血染甲衣 这一场泼墨惊了山川
+最恨这 意难平 连理枝折断在宿命
 
-[Bridge: Stripped Back, Piano Only]
-(spoken) 如果有天 我们都老得很慢
-[Stop]
-(soft) 我还想牵着你
-[Build]
-把这首歌 唱完
+[Interlude: guzheng solo with erhu answering, 12 bars]
 
-[Final Chorus: Key Change Up | Choir]
-(belted) 你是我 兵荒马乱里的灯
-[Backing Vocals]
-是我走多远 也不会迷的人
-全世界 吵到失了声
-(vibrato) 只有你说话 我才安了心～
+[Verse 3]
+春水东流 吹散了桃溪渡口
+空帏烛灺 燃尽了欲说还羞
+尺素难传 唯有那北风如吼
+将相功 枯骨冢 算不明白头白首
 
-[Outro: Emotional, Fade Out]
-(humming) 把平凡 过成唯一～
+[Verse 4]
+夜阑灯灺 似听得铁骑奔腾
+大漠孤烟 吞没你如玉面容
+若得来生 愿君做寻常农家
+洗铅华 隐烟雨 闲看那满路桑麻
+
+[Pre-Chorus - variation]
+看 阶前是 离离落落的青苔
+念 故人归来 却撞入空白
+仿佛听 狼烟深处 有你长枪破长空
+这一场劫数 啊 终是将你 我掩埋
+
+[Chorus - higher energy]
+我守江南 燃三千枯香跪求神明
+君在沙场 洒一腔热血莫唤孤魂
+莫入我梦 怕见你形容枯槁归来
+泪眼婆娑 偏打湿当年出嫁红腮
+最恨这 意难平 盛世安宁换了生离
+你护了 这方烟雨 却唯独 把我抛弃
+
+[Bridge - spoken style, slow]
+凭何 英雄名 换来一座 无字碑
+凭何 功臣泪 只能流入 孤坟堆
+我不要 这万里江山 如画的壮美
+我只要 你活着 归来
+我只要 你活着 归来
+
+[Chorus - key change up, full emotion]
+苔痕染绿 阶前仍是旧时雨
+沙场尘飞 谁人识得君名
+
+[Outro]
+[Humming] 嗯～嗯～ 嗯嗯嗯～ 嗯～嗯～
+[Opera ad-lib] 啊～～ 咿～呀～～ 啊～～～
+[Bamboo flute fade out, 8 bars]
 [End]
 ```
 
-顺便给你拉一张这首歌的技巧速览，左边是歌里出现的标签，右边是它在演示啥、对应文章哪个维度。你把这首《只有你》当索引，全文的技巧就都能串起来复习。
+顺便给你拉一张这首歌的技巧速览，左边是歌里出现的标签，右边是它在演示啥、对应文章哪个维度。你把这首《意难平》当索引，全文的技巧就都能串起来复习。
 
 | 歌里的标签 | 演示的技巧 |
 | --- | --- |
-| `[Intro: Soft Piano, Gentle Humming]` + `(humming)` | 前奏哼唱开场（维度2） |
-| `[Verse 1: Sparse, Close Mic]` | 段落标签叠加修饰（维度2 / 3） |
-| `(whispered)` `(softer)` | 气声、更轻的唱法（维度3） |
-| `[Pre-Chorus: Building Tension]` + `[Build]` | 预副歌助跑加能量爬升（维度3） |
-| `[Chorus: Anthemic \| Stacked Harmonies]` | 叠加语法加和声（维度3） |
-| `(belted)` | 放声高唱爆发（维度3） |
-| `(ad-libs)` | 即兴花腔（维度3 / 6） |
-| `[Post-Chorus]` + `(oh-oh-oh)` | 副歌后洗脑钩子（维度2） |
-| `(falsetto)` | 假音（维度6） |
-| `[Rap Verse]` + `(rap)` | 说唱段（维度3） |
-| `[Piano Solo]` | 乐器独奏间奏（维度2） |
-| `[Stop]` | 突然停顿（维度3） |
-| `(spoken)` | 念白不唱（维度3） |
-| `[Final Chorus: Key Change Up \| Choir]` | 升调加合唱团（维度3 / 6） |
-| `[Backing Vocals]` | 背景和声（维度3） |
-| `(vibrato)` | 颤音（维度6） |
+| `[Intro: 8 bars, piano and light rain sound, distant temple bell]` | 小节数加音效加乐器控制前奏（维度2） |
+| `[Humming]` | 哼唱开场与收尾（维度2 / 3） |
+| `[Verse 1]` 到 `[Verse 4]` | 多段主歌把故事讲完整（维度2 / 4） |
+| `[Pre-Chorus]` | 预副歌助跑（维度2） |
+| `[Chorus]` | 副歌第一遍，平铺叙事（维度3） |
+| `[Interlude: guzheng solo with erhu answering, 12 bars]` | 具名乐器独奏间奏加一问一答加小节控制（维度2） |
+| `[Pre-Chorus - variation]` | 预副歌变奏（维度3） |
+| `[Chorus - higher energy]` | 副歌第二遍，情绪加码（维度3） |
+| `[Bridge - spoken style, slow]` | 念白桥段、放慢（维度3 / 6） |
+| `[Chorus - key change up, full emotion]` | 副歌第三遍，升调情绪到顶（维度3） |
+| `[Opera ad-lib]` | 戏腔即兴（维度6） |
+| `[Bamboo flute fade out, 8 bars]` | 具名乐器渐弱收尾（维度2 / 3） |
+| `[End]` | 强制结束（维度2） |
 | 句尾的 `～` | 拖长音（维度4 标点控制） |
-| `[Outro: Emotional, Fade Out]` + `[End]` | 渐弱收尾加强制结束（维度2 / 3） |
 
 ![去生成](images/result-play.png)
 
 我得提前跟你说句实话，别抱着「贴完一次成片」的期待。
 
-AI 作曲这事，有运气成分。同一段提示词，每次出来都不太一样，你大概率得点个三五次，从里面挑一版最对味的。尤其那段从副歌切到 rap 的衔接，有时候 AI 接得丝滑，有时候接得有点生硬，多生成几遍总有一版对的。这很正常，我自己出一首满意的歌，废掉七八个版本是常事。
+AI 作曲这事，有运气成分。同一段提示词，每次出来都不太一样，你大概率得点个三五次，从里面挑一版最对味的。尤其这首又长、段落又多，副歌还要一遍比一遍升级，有时候 AI 升得漂亮，有时候它会偷懒不给你升调，多生成几遍总有一版对的。这很正常，我自己出一首满意的歌，废掉七八个版本是常事。歌太长一次生不完，就用 Extend 接着往下生，记得每次把 Style 重新填一遍，免得后半段跑偏。
 
 但你手里有了这套写法之后，跟以前最大的区别是，你不再是开盲盒了，你是在一个你定好的框框里挑，而不是在整个宇宙里碰运气。
 
@@ -790,17 +749,17 @@ AI 作曲这事，有运气成分。同一段提示词，每次出来都不太�
 
 ---
 
-回过头看，我们其实就干了六件事。给声音定了个调（Style 框加速查表），搭了个骨架（结构标签加哼唱前奏），当了回导演（行内标签加那段 rap），填了能唱的词（中文歌词技巧），把杂音踢出去（排除），最后把人声调到位（选性别加锁音色）。
+回过头看，我们其实就干了六件事。给声音定了个调（Style 框加速查表），搭了个骨架（结构标签加哼唱前奏），当了回导演（行内标签加副歌三遍升级），填了能唱的词（古风歌词技巧），把杂音踢出去（排除），最后把人声调到位（选性别加锁音色）。
 
-五块拼一块，一首《只有你》就出来了。
+六块拼一块，一首《意难平》就出来了。
 
-我一直觉得，AI 这一波最迷人的地方，不是它能替我们干活，而是它把很多以前需要门槛的事，门槛一下子拍平了。作曲编曲，过去是要进录音棚、要懂乐理、要会乐器的事，是普通人这辈子都摸不着的一扇门。一首邓紫棋的《唯一》背后，是词曲、编曲、录音、混音一整条专业的链路。
+我一直觉得，AI 这一波最迷人的地方，不是它能替我们干活，而是它把很多以前需要门槛的事，门槛一下子拍平了。作曲编曲，过去是要进录音棚、要懂乐理、要会乐器的事，是普通人这辈子都摸不着的一扇门。一段古筝、一把二胡、一个会唱戏腔的嗓子，背后是多少年的功夫。
 
 现在这扇门，变成了两个文本框。
 
-你不需要看懂五线谱，不需要会弹任何乐器，你只需要会跟它好好说话。而怎么跟它好好说话，就是我这篇想掰开揉碎讲给你的全部。
+你不需要看懂工尺谱，不需要会弹任何乐器，你只需要会跟它好好说话。而怎么跟它好好说话，就是我这篇想掰开揉碎讲给你的全部。
 
-那首《只有你》，是我刚刚陪你一起写的。
+那首《意难平》，是我刚刚陪你一起写的。它讲的是一个等不到人的故事，可我们中国人骨子里那点东西，家国与儿女、成全与不甘、还有那四个字的意难平，竟然真的能用两个文本框，让它重新响起来。
 
 接下来，写一首属于你自己的，去吧。
 
